@@ -19,7 +19,8 @@ let project = Project.makeAppModule(
     product: .app,
     settings: .appMainSetting,
     dependencies: [
-        
+        .feature,
+        .core
     ],
     sources: ["Sources/**", "Resources/FontAsset/**"],
     resources: ["Resources/**"],

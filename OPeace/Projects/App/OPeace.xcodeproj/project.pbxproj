@@ -7,11 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D77C945CDE60033C695BFB /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */; };
+		181F46F0548B9C0F912140F3 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */; };
+		196CD8FCD2663E266A67BF57 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9D8CEDB1ED18F7500F840 /* Domain.framework */; };
 		1AD38619FB40811DC7F067BB /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCB6C88557610302866AB9 /* test.swift */; };
+		1D664278779A032A03566588 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */; };
+		2552F6C9A88E89E2AACDF60F /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD20FDB83BC2E8595770794 /* CustomDump.framework */; };
+		2D28E94B89C4962BF8DFC08B /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */; };
+		2D3B37AD95DAF35887F02AC5 /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */; };
 		314B9EA24F32792C4AC44C8E /* OpeaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D38A4CA1E3521DD8538BE /* OpeaceApp.swift */; };
+		331A553AA81B4B35A40A54D1 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A866663F825CB4532CC39D /* Core.framework */; };
+		41548E46AF543A67A20476CA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62E719CD13379021A1018E /* ComposableArchitecture.framework */; };
+		4BC2CBFF22A8480D4B615D61 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7EF819168A470F989D372 /* DependenciesMacros.framework */; };
 		530D7A4D24BD734459A5B33F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */; };
+		5736B68C32F8BF337F4C9FAA /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */; };
+		5ED77D480D2EED7CAB8198BF /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */; };
+		5F4CB6C26FCCABA75C936E01 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */; };
+		65B8A38D1DFCE98A6B9C8C3B /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CB125698D4770B881D957A /* Network.framework */; };
+		672295BC8455CEDC1972E351 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D574A6935030AF818EFD7F3 /* Dependencies.framework */; };
 		6DC8923659198D603F255B5D /* OpeaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D38A4CA1E3521DD8538BE /* OpeaceApp.swift */; };
+		72DCFE1729F948D6E033C7F1 /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF08C930417B00E79450B51 /* ShareKit.framework */; };
+		8FAA6055E1C01F7EE6D4C8C4 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7EF819168A470F989D372 /* DependenciesMacros.framework */; };
+		9C953E34089A4B7C6CAD7066 /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2746ED6390D9CF7B240C02 /* Feature.framework */; };
+		9CBCAFF70D23219F539247B6 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DC95C364244F938C7DFCCA /* Clocks.framework */; };
 		9E5BA72861F02B20CF391C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */; };
+		A2A4A09451193E19B534201C /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9D8CEDB1ED18F7500F840 /* Domain.framework */; };
+		A4C1045E8FABFE9B70B80B29 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */; };
+		B245C58A3C7ED10016056A0B /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD20FDB83BC2E8595770794 /* CustomDump.framework */; };
+		B64D517CE1C04AB2731F919A /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF08C930417B00E79450B51 /* ShareKit.framework */; };
+		BBAC2EF966D7B2C0550CB9F0 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DC95C364244F938C7DFCCA /* Clocks.framework */; };
+		BC7F266A6177C0351DF263FB /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */; };
+		BD5CD72C48EA3FBB29C538BC /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */; };
+		BD748F6D9C95E52A9FE596EA /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2746ED6390D9CF7B240C02 /* Feature.framework */; };
+		C172050A2C5A683F5D1B027B /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CB125698D4770B881D957A /* Network.framework */; };
+		C753AB905C9649FA346C7B77 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62E719CD13379021A1018E /* ComposableArchitecture.framework */; };
+		C8A68F2CB6935D5E16566F5E /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */; };
+		C9573E22755598E058524EF3 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
+		D7FB274EE0887678903BA7B7 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A866663F825CB4532CC39D /* Core.framework */; };
+		EFA3BC38583E02E302778D34 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
+		F158DFF9976A4C38DBA6E12C /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D574A6935030AF818EFD7F3 /* Dependencies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +92,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D574A6935030AF818EFD7F3 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF08C930417B00E79450B51 /* ShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CCB6C88557610302866AB9 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EB1E0DCC56F5D20F7CF97B /* OPeaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OPeaceTests-Info.plist"; sourceTree = "<group>"; };
 		4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPeace_Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F7EF819168A470F989D372 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2746ED6390D9CF7B240C02 /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A866663F825CB4532CC39D /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A62E719CD13379021A1018E /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9D38A4CA1E3521DD8538BE /* OpeaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeaceApp.swift; sourceTree = "<group>"; };
 		A445C66880DC63E9958A59AA /* OPeace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPeace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DC95C364244F938C7DFCCA /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C9D8CEDB1ED18F7500F840 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9678ED159E24A7980155D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCD20FDB83BC2E8595770794 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE77E1B0D4071D61EFEBAD16 /* OPeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPeaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CB125698D4770B881D957A /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +131,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5736B68C32F8BF337F4C9FAA /* CasePaths.framework in Frameworks */,
+				9CBCAFF70D23219F539247B6 /* Clocks.framework in Frameworks */,
+				1D664278779A032A03566588 /* CombineSchedulers.framework in Frameworks */,
+				C753AB905C9649FA346C7B77 /* ComposableArchitecture.framework in Frameworks */,
+				A4C1045E8FABFE9B70B80B29 /* ConcurrencyExtras.framework in Frameworks */,
+				D7FB274EE0887678903BA7B7 /* Core.framework in Frameworks */,
+				2552F6C9A88E89E2AACDF60F /* CustomDump.framework in Frameworks */,
+				672295BC8455CEDC1972E351 /* Dependencies.framework in Frameworks */,
+				8FAA6055E1C01F7EE6D4C8C4 /* DependenciesMacros.framework in Frameworks */,
+				196CD8FCD2663E266A67BF57 /* Domain.framework in Frameworks */,
+				BD748F6D9C95E52A9FE596EA /* Feature.framework in Frameworks */,
+				181F46F0548B9C0F912140F3 /* IdentifiedCollections.framework in Frameworks */,
+				65B8A38D1DFCE98A6B9C8C3B /* Network.framework in Frameworks */,
+				2D28E94B89C4962BF8DFC08B /* OrderedCollections.framework in Frameworks */,
+				B64D517CE1C04AB2731F919A /* ShareKit.framework in Frameworks */,
+				5ED77D480D2EED7CAB8198BF /* SwiftUINavigationCore.framework in Frameworks */,
+				C9573E22755598E058524EF3 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +155,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A68F2CB6935D5E16566F5E /* CasePaths.framework in Frameworks */,
+				BBAC2EF966D7B2C0550CB9F0 /* Clocks.framework in Frameworks */,
+				BC7F266A6177C0351DF263FB /* CombineSchedulers.framework in Frameworks */,
+				41548E46AF543A67A20476CA /* ComposableArchitecture.framework in Frameworks */,
+				BD5CD72C48EA3FBB29C538BC /* ConcurrencyExtras.framework in Frameworks */,
+				331A553AA81B4B35A40A54D1 /* Core.framework in Frameworks */,
+				B245C58A3C7ED10016056A0B /* CustomDump.framework in Frameworks */,
+				F158DFF9976A4C38DBA6E12C /* Dependencies.framework in Frameworks */,
+				4BC2CBFF22A8480D4B615D61 /* DependenciesMacros.framework in Frameworks */,
+				A2A4A09451193E19B534201C /* Domain.framework in Frameworks */,
+				9C953E34089A4B7C6CAD7066 /* Feature.framework in Frameworks */,
+				5F4CB6C26FCCABA75C936E01 /* IdentifiedCollections.framework in Frameworks */,
+				C172050A2C5A683F5D1B027B /* Network.framework in Frameworks */,
+				15D77C945CDE60033C695BFB /* OrderedCollections.framework in Frameworks */,
+				72DCFE1729F948D6E033C7F1 /* ShareKit.framework in Frameworks */,
+				2D3B37AD95DAF35887F02AC5 /* SwiftUINavigationCore.framework in Frameworks */,
+				EFA3BC38583E02E302778D34 /* XCTestDynamicOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,9 +213,26 @@
 		3F2247ADAAE2A17A5F1DF0E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */,
+				B3DC95C364244F938C7DFCCA /* Clocks.framework */,
+				064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */,
+				8A62E719CD13379021A1018E /* ComposableArchitecture.framework */,
+				FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */,
+				88A866663F825CB4532CC39D /* Core.framework */,
+				DCD20FDB83BC2E8595770794 /* CustomDump.framework */,
+				0D574A6935030AF818EFD7F3 /* Dependencies.framework */,
+				54F7EF819168A470F989D372 /* DependenciesMacros.framework */,
+				B5C9D8CEDB1ED18F7500F840 /* Domain.framework */,
+				5B2746ED6390D9CF7B240C02 /* Feature.framework */,
+				897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */,
+				E2CB125698D4770B881D957A /* Network.framework */,
 				4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */,
 				A445C66880DC63E9958A59AA /* OPeace.app */,
 				DE77E1B0D4071D61EFEBAD16 /* OPeaceTests.xctest */,
+				E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */,
+				1DF08C930417B00E79450B51 /* ShareKit.framework */,
+				3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */,
+				0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";

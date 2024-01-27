@@ -8,10 +8,13 @@
 
 import Foundation
 import SwiftUI
+import Feature
 
 @main
 struct OpeaceApp: App {
     var body: some Scene {
-        Con
+        WindowGroup {
+            OnBoardingView()
+        }
     }
 }
