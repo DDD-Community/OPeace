@@ -17,17 +17,22 @@
 		2D3B37AD95DAF35887F02AC5 /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */; };
 		314B9EA24F32792C4AC44C8E /* OpeaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D38A4CA1E3521DD8538BE /* OpeaceApp.swift */; };
 		331A553AA81B4B35A40A54D1 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A866663F825CB4532CC39D /* Core.framework */; };
+		3F95678157AEC98B0717868B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A4ACB716AA0BF22075AE1B /* Moya.framework */; };
 		41548E46AF543A67A20476CA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62E719CD13379021A1018E /* ComposableArchitecture.framework */; };
 		4BC2CBFF22A8480D4B615D61 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7EF819168A470F989D372 /* DependenciesMacros.framework */; };
 		530D7A4D24BD734459A5B33F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */; };
 		5736B68C32F8BF337F4C9FAA /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */; };
+		57C87A478A48B48E068B1D45 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47F8C02F4B964562B0333A4 /* CFNetwork.framework */; };
 		5ED77D480D2EED7CAB8198BF /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */; };
 		5F4CB6C26FCCABA75C936E01 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */; };
 		65B8A38D1DFCE98A6B9C8C3B /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CB125698D4770B881D957A /* Network.framework */; };
 		672295BC8455CEDC1972E351 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D574A6935030AF818EFD7F3 /* Dependencies.framework */; };
+		6CF65A3AB345A78CFD3B3E3B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A4ACB716AA0BF22075AE1B /* Moya.framework */; };
 		6DC8923659198D603F255B5D /* OpeaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D38A4CA1E3521DD8538BE /* OpeaceApp.swift */; };
 		72DCFE1729F948D6E033C7F1 /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF08C930417B00E79450B51 /* ShareKit.framework */; };
+		775C07C9FCAAD5AF0676E327 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7389C99AC044DB6FCAE886 /* Alamofire.framework */; };
 		8FAA6055E1C01F7EE6D4C8C4 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7EF819168A470F989D372 /* DependenciesMacros.framework */; };
+		9A0C9754740EC40A5A6E5B8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47F8C02F4B964562B0333A4 /* CFNetwork.framework */; };
 		9C953E34089A4B7C6CAD7066 /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2746ED6390D9CF7B240C02 /* Feature.framework */; };
 		9CBCAFF70D23219F539247B6 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DC95C364244F938C7DFCCA /* Clocks.framework */; };
 		9E5BA72861F02B20CF391C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */; };
@@ -44,6 +49,7 @@
 		C8A68F2CB6935D5E16566F5E /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */; };
 		C9573E22755598E058524EF3 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
 		D7FB274EE0887678903BA7B7 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A866663F825CB4532CC39D /* Core.framework */; };
+		EE9B2EC8D458321DD012D5C3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7389C99AC044DB6FCAE886 /* Alamofire.framework */; };
 		EFA3BC38583E02E302778D34 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
 		F158DFF9976A4C38DBA6E12C /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D574A6935030AF818EFD7F3 /* Dependencies.framework */; };
 /* End PBXBuildFile section */
@@ -92,6 +98,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00A4ACB716AA0BF22075AE1B /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D574A6935030AF818EFD7F3 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +110,7 @@
 		4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPeace_Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7EF819168A470F989D372 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2746ED6390D9CF7B240C02 /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7389C99AC044DB6FCAE886 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A866663F825CB4532CC39D /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A62E719CD13379021A1018E /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +124,7 @@
 		DE77E1B0D4071D61EFEBAD16 /* OPeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPeaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CB125698D4770B881D957A /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47F8C02F4B964562B0333A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,6 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C87A478A48B48E068B1D45 /* CFNetwork.framework in Frameworks */,
+				775C07C9FCAAD5AF0676E327 /* Alamofire.framework in Frameworks */,
 				5736B68C32F8BF337F4C9FAA /* CasePaths.framework in Frameworks */,
 				9CBCAFF70D23219F539247B6 /* Clocks.framework in Frameworks */,
 				1D664278779A032A03566588 /* CombineSchedulers.framework in Frameworks */,
@@ -143,6 +154,7 @@
 				196CD8FCD2663E266A67BF57 /* Domain.framework in Frameworks */,
 				BD748F6D9C95E52A9FE596EA /* Feature.framework in Frameworks */,
 				181F46F0548B9C0F912140F3 /* IdentifiedCollections.framework in Frameworks */,
+				6CF65A3AB345A78CFD3B3E3B /* Moya.framework in Frameworks */,
 				65B8A38D1DFCE98A6B9C8C3B /* Network.framework in Frameworks */,
 				2D28E94B89C4962BF8DFC08B /* OrderedCollections.framework in Frameworks */,
 				B64D517CE1C04AB2731F919A /* ShareKit.framework in Frameworks */,
@@ -155,6 +167,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0C9754740EC40A5A6E5B8E /* CFNetwork.framework in Frameworks */,
+				EE9B2EC8D458321DD012D5C3 /* Alamofire.framework in Frameworks */,
 				C8A68F2CB6935D5E16566F5E /* CasePaths.framework in Frameworks */,
 				BBAC2EF966D7B2C0550CB9F0 /* Clocks.framework in Frameworks */,
 				BC7F266A6177C0351DF263FB /* CombineSchedulers.framework in Frameworks */,
@@ -167,6 +181,7 @@
 				A2A4A09451193E19B534201C /* Domain.framework in Frameworks */,
 				9C953E34089A4B7C6CAD7066 /* Feature.framework in Frameworks */,
 				5F4CB6C26FCCABA75C936E01 /* IdentifiedCollections.framework in Frameworks */,
+				3F95678157AEC98B0717868B /* Moya.framework in Frameworks */,
 				C172050A2C5A683F5D1B027B /* Network.framework in Frameworks */,
 				15D77C945CDE60033C695BFB /* OrderedCollections.framework in Frameworks */,
 				72DCFE1729F948D6E033C7F1 /* ShareKit.framework in Frameworks */,
@@ -181,6 +196,7 @@
 		0690A5E7F754D21B1C80E484 /* Compiled */ = {
 			isa = PBXGroup;
 			children = (
+				E47F8C02F4B964562B0333A4 /* CFNetwork.framework */,
 			);
 			name = Compiled;
 			sourceTree = "<group>";
@@ -213,6 +229,7 @@
 		3F2247ADAAE2A17A5F1DF0E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				7D7389C99AC044DB6FCAE886 /* Alamofire.framework */,
 				0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */,
 				B3DC95C364244F938C7DFCCA /* Clocks.framework */,
 				064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */,
@@ -225,6 +242,7 @@
 				B5C9D8CEDB1ED18F7500F840 /* Domain.framework */,
 				5B2746ED6390D9CF7B240C02 /* Feature.framework */,
 				897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */,
+				00A4ACB716AA0BF22075AE1B /* Moya.framework */,
 				E2CB125698D4770B881D957A /* Network.framework */,
 				4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */,
 				A445C66880DC63E9958A59AA /* OPeace.app */,

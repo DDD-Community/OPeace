@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire"
+               ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/Alamofire/Alamofire.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "7CB5E98E45FAAF594F8A0F1E"
                BuildableName = "CasePaths.framework"
                BlueprintName = "CasePaths"
@@ -256,6 +270,20 @@
                BuildableName = "IdentifiedCollections.framework"
                BlueprintName = "IdentifiedCollections"
                ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-identified-collections/swift-identified-collections.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4DFF0D3EE507E4032CBEC48"
+               BuildableName = "Moya.framework"
+               BlueprintName = "Moya"
+               ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/Moya/Moya.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -677,10 +705,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7CB5E98E45FAAF594F8A0F1E"
-            BuildableName = "CasePaths.framework"
-            BlueprintName = "CasePaths"
-            ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-case-paths/swift-case-paths.xcodeproj">
+            BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire"
+            ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/Alamofire/Alamofire.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -693,10 +721,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7CB5E98E45FAAF594F8A0F1E"
-            BuildableName = "CasePaths.framework"
-            BlueprintName = "CasePaths"
-            ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-case-paths/swift-case-paths.xcodeproj">
+            BlueprintIdentifier = "2A717419231F3C0B8A3E0F06"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire"
+            ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/Alamofire/Alamofire.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
