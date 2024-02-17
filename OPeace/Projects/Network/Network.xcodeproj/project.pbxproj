@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				DA2A7B178B1FAD113C3DC944 /* Project */,
-				4FE17AC397AA8D5E53E2CDCE /* Compiled */,
+				E28E2C8DB194E60CF4C5EA44 /* Frameworks */,
 				B02A4899222D2A1DA3F4A4FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,13 +118,6 @@
 				5015E5D95CF8667CDAC6B4AA /* NetworkTests-Info.plist */,
 			);
 			path = InfoPlists;
-			sourceTree = "<group>";
-		};
-		4FE17AC397AA8D5E53E2CDCE /* Compiled */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Compiled;
 			sourceTree = "<group>";
 		};
 		86EE5E83306F6D80F93AB42F /* Sources */ = {
@@ -169,6 +162,13 @@
 				86EE5E83306F6D80F93AB42F /* Sources */,
 			);
 			name = Project;
+			sourceTree = "<group>";
+		};
+		E28E2C8DB194E60CF4C5EA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

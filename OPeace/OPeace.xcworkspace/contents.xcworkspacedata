@@ -33,6 +33,12 @@
          location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/Moya/Moya.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/ReactiveSwift/ReactiveSwift.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/RxSwift/RxSwift.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/combine-schedulers/combine-schedulers.xcodeproj">
       </FileRef>
       <FileRef

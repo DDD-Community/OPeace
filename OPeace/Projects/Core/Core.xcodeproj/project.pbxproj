@@ -14,8 +14,8 @@
 		23403FE6A7A808E7C7370F1E /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */; };
 		298BC5B1CF7508C087FA3F4B /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF83A866D4A9C77D4DA726D /* ShareKit.framework */; };
 		2AEA257D94FCC05A4BE94071 /* ShareKit.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = AEF83A866D4A9C77D4DA726D /* ShareKit.framework */; };
-		4596DE552572A875DD30C5C8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D1B2C8DB3CCDAE85610987 /* CFNetwork.framework */; };
 		547BB87F767F9C2E9BD5FB71 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97965CF609A097716C836BD /* test.swift */; };
+		57156190FF671981EAC3A025 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3F13E23B6662B1FDAD4536 /* CFNetwork.framework */; };
 		5BEF1F499711C03A721FEFB4 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6EA3166EAE3B4E5C3A3655 /* OrderedCollections.framework */; };
 		62746F1C6A885411CC423F9A /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C2E0E9FA89653EBA928FFB /* ConcurrencyExtras.framework */; };
 		63112B4612328F21CBF57EEC /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2BE1CBF9ED37C1E33CB450 /* SwiftUINavigationCore.framework */; };
@@ -106,7 +106,6 @@
 		37D454E3D3DEA3106FC5B1D9 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC4D7ECA2A00049A0956F2F /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		3E313EC3E53C9ED17660FD3F /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44D1B2C8DB3CCDAE85610987 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		4A672C80AC40AD7ADFD38507 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6260F75C087362295DDE52AE /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CB4C065188C454F04935DE /* Core-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Core-Dev-Info.plist"; sourceTree = "<group>"; };
@@ -118,6 +117,7 @@
 		BB18C1565FE3EAC96777EC0F /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C175D576FC2CE0FF66645233 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97965CF609A097716C836BD /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		CA3F13E23B6662B1FDAD4536 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		D81A5985FBB055CC8CA4FAB8 /* CoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CoreTests-Info.plist"; sourceTree = "<group>"; };
 		DE2BE1CBF9ED37C1E33CB450 /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE351E328C333744FEAAACEF /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4596DE552572A875DD30C5C8 /* CFNetwork.framework in Frameworks */,
+				57156190FF671981EAC3A025 /* CFNetwork.framework in Frameworks */,
 				CA97E3AF6D6CF4C038475C9D /* Alamofire.framework in Frameworks */,
 				73B227E88875DC723B874A3B /* CasePaths.framework in Frameworks */,
 				1D9F665899C0A1842451814E /* Clocks.framework in Frameworks */,
@@ -226,9 +226,17 @@
 			isa = PBXGroup;
 			children = (
 				E12816BA35F79D21E0D77318 /* Project */,
-				BCB74C79A22FE249AE427F68 /* Compiled */,
+				64E34141D18153ACC8D4E5F8 /* Frameworks */,
 				250C62EE12DB56ECEBB473C3 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		64E34141D18153ACC8D4E5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA3F13E23B6662B1FDAD4536 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		81104ECEC5CD1B0F5111557B /* Sources */ = {
@@ -237,14 +245,6 @@
 				C97965CF609A097716C836BD /* test.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		BCB74C79A22FE249AE427F68 /* Compiled */ = {
-			isa = PBXGroup;
-			children = (
-				44D1B2C8DB3CCDAE85610987 /* CFNetwork.framework */,
-			);
-			name = Compiled;
 			sourceTree = "<group>";
 		};
 		E12816BA35F79D21E0D77318 /* Project */ = {
@@ -481,6 +481,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Core.CoreTests;
 				PRODUCT_NAME = CoreTests;
 				SDKROOT = iphoneos;
@@ -512,6 +520,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Core;
 				PRODUCT_NAME = Core_Dev;
 				SDKROOT = iphoneos;
@@ -538,6 +554,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Core.CoreTests;
 				PRODUCT_NAME = CoreTests;
@@ -571,6 +595,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Core;
 				PRODUCT_NAME = Core_Dev;
 				SDKROOT = iphoneos;
@@ -665,6 +697,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Core;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
@@ -700,6 +740,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Core;
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
