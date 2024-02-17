@@ -11,6 +11,9 @@
          location = "group:Core/Core.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:DesignSystemKit/DesignSystemKit.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Domain/Domain.xcodeproj">
       </FileRef>
       <FileRef

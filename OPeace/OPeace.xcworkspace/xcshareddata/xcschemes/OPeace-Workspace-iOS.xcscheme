@@ -182,6 +182,76 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7593CE8B91B040D51DCF5B17"
+               BuildableName = "DesignSystemKit.framework"
+               BlueprintName = "DesignSystemKit"
+               ReferencedContainer = "container:Projects/DesignSystemKit/DesignSystemKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DCCEA61F1F3708254BDE766C"
+               BuildableName = "DesignSystemKit_Dev.framework"
+               BlueprintName = "DesignSystemKit-Dev"
+               ReferencedContainer = "container:Projects/DesignSystemKit/DesignSystemKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "383BCBD60E169489A45282CF"
+               BuildableName = "DesignSystemKitTests.xctest"
+               BlueprintName = "DesignSystemKitTests"
+               ReferencedContainer = "container:Projects/DesignSystemKit/DesignSystemKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA8809FF53A4FD9CA5A268ED"
+               BuildableName = "DesignSystemKit_DesignSystemKit.bundle"
+               BlueprintName = "DesignSystemKit_DesignSystemKit"
+               ReferencedContainer = "container:Projects/DesignSystemKit/DesignSystemKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A2352406717C1BFF3C76D756"
+               BuildableName = "DesignSystemKit_DesignSystemKit_Dev.bundle"
+               BlueprintName = "DesignSystemKit_DesignSystemKit-Dev"
+               ReferencedContainer = "container:Projects/DesignSystemKit/DesignSystemKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "C538ACB2975E6B55AFA02B19"
                BuildableName = "Domain.framework"
                BlueprintName = "Domain"
@@ -638,6 +708,16 @@
                BuildableName = "CoreTests.xctest"
                BlueprintName = "CoreTests"
                ReferencedContainer = "container:Projects/Core/Core.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "383BCBD60E169489A45282CF"
+               BuildableName = "DesignSystemKitTests.xctest"
+               BlueprintName = "DesignSystemKitTests"
+               ReferencedContainer = "container:Projects/DesignSystemKit/DesignSystemKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

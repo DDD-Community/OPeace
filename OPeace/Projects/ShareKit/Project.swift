@@ -17,6 +17,7 @@ let project = Project.makeAppModule(
     settings:  .settings(),
     dependencies: [
         .SPM.CcomposableArchitecture,
+        .designSystemKit,
         .external(name: "Moya")
     ],
     sources: ["Sources/**"]

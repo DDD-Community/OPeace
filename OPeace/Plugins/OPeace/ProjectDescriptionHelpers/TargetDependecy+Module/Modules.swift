@@ -14,6 +14,7 @@ public enum ModulePath {
     case Core
     case Network
     case Domain
+    case DesignSystemKit
 }
 
 public extension ModulePath {
@@ -29,6 +30,8 @@ public extension ModulePath {
             return "Network"
         case .Domain:
             return "Domain"
+        case .DesignSystemKit:
+            return "DesignSystemKit"
         }
     }
     
