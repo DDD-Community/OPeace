@@ -36,6 +36,10 @@ public extension ProjectDescription.Path {
     static var ShareKit: Self {
         return .relativeToRoot("Projects/\(ModulePath.ShareKit.name)")
     }
+    
+    static var DesignSystemKit: Self {
+        return .relativeToRoot("Projects/\(ModulePath.DesignSystemKit.name)")
+    }
 }
 
 public extension ProjectDescription.Path {

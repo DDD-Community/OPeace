@@ -40,6 +40,10 @@ public extension TargetDependency {
     static var shareKit: Self {
         return .project(target: ModulePath.ShareKit.name, path: .ShareKit)
     }
+    
+    static var designSystemKit: Self {
+        return .project(target: ModulePath.DesignSystemKit.name, path: .DesignSystemKit)
+    }
 }
 
 public extension TargetDependency {

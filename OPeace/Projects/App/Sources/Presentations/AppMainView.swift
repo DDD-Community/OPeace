@@ -11,6 +11,7 @@ import SwiftUI
 import Moya
 import Feature
 import ComposableArchitecture
+import DesignSystemKit
 
 
 struct AppMainView: View {
@@ -24,6 +25,7 @@ struct AppMainView: View {
                 path.append(ViewContent(number: 0, content: "onboardingContent"))
             }, label: {
                 Text("다음화면으로 이동")
+                    .foregroundStyle(DesignSystemKitAsset.graySacleB.swiftUIColor)
             })
             .navigationDestination(for: ViewContent.self) { next in
                 OnBoardingView(number: next.number, content: next.content, path: $path)
