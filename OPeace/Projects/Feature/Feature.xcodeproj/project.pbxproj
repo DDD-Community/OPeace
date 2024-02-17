@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C11533D43484A67ADC6AC8 /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181A00B70FC904171153F6B /* MainCardView.swift */; };
 		07DF8A4490BDE47FB8529B4D /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206ADBFB3491FA04066C674E /* Dependencies.framework */; };
 		0CC52FF6BEC133617005C749 /* Core.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
+		1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181A00B70FC904171153F6B /* MainCardView.swift */; };
 		326273393988933F1413F5BD /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22757DDE6DA035D6F268779B /* DependenciesMacros.framework */; };
 		34F00D9609DC8513B12BE669 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */; };
 		37512EEFCA5F306960FC5675 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30171831478092EEDBF5188C /* CombineSchedulers.framework */; };
@@ -21,8 +23,6 @@
 		74796393DC0390F8339C6ABD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A063BF35DFA77C20F94350 /* Moya.framework */; };
 		7869BA58F22795E2335F07A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB18CA433FAE55AC1AAC3BCE /* CFNetwork.framework */; };
 		7FD9AF681594845FB080ADD5 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */; };
-		84D433252B6F3A48001AAB97 /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D433242B6F3A48001AAB97 /* MainCardView.swift */; };
-		84D433262B6F3A48001AAB97 /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D433242B6F3A48001AAB97 /* MainCardView.swift */; };
 		862880EB556519403F9522C4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */; };
 		873B6A62BF2FACA7402ED29C /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C4B197AD238EB123653B0 /* OrderedCollections.framework */; };
 		9B69B47757BE4626315A9E59 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
@@ -116,7 +116,6 @@
 		64A063BF35DFA77C20F94350 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C747A7858A77344C12E8D8A /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C4B197AD238EB123653B0 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84D433242B6F3A48001AAB97 /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
 		8867A4C73D211CAFCC002BC2 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A611D1693834F821CBD6EAD /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A215FBB13B09E45FD00ED57C /* Feature-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Feature-Info.plist"; sourceTree = "<group>"; };
@@ -127,6 +126,7 @@
 		BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		BDA41E830426C0FD43F195DC /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D27ED35E4328D411D71116 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D181A00B70FC904171153F6B /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
 		D2E966455637831DC7FA52A6 /* FeatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB18CA433FAE55AC1AAC3BCE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		E01F9B301EAA49A194EC8B48 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,8 +215,8 @@
 		7CD9C88464D9A1825DB2DA5E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D181A00B70FC904171153F6B /* MainCardView.swift */,
 				BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */,
-				84D433242B6F3A48001AAB97 /* MainCardView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -345,6 +345,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				ORGANIZATIONNAME = Yeom;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 31B40DEAC22225C89EF80B24 /* Build configuration list for PBXProject "Feature" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -395,8 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C11533D43484A67ADC6AC8 /* MainCardView.swift in Sources */,
 				862880EB556519403F9522C4 /* OnBoardingView.swift in Sources */,
-				84D433252B6F3A48001AAB97 /* MainCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +406,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */,
 				34F00D9609DC8513B12BE669 /* OnBoardingView.swift in Sources */,
-				84D433262B6F3A48001AAB97 /* MainCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
