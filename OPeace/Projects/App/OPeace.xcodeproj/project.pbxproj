@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,7 @@
 		3F95678157AEC98B0717868B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A4ACB716AA0BF22075AE1B /* Moya.framework */; };
 		41548E46AF543A67A20476CA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62E719CD13379021A1018E /* ComposableArchitecture.framework */; };
 		4BC2CBFF22A8480D4B615D61 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7EF819168A470F989D372 /* DependenciesMacros.framework */; };
-		530D7A4D24BD734459A5B33F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */; };
+		530D7A4D24BD734459A5B33F /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* AppMainView.swift */; };
 		5736B68C32F8BF337F4C9FAA /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */; };
 		57C87A478A48B48E068B1D45 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47F8C02F4B964562B0333A4 /* CFNetwork.framework */; };
 		5ED77D480D2EED7CAB8198BF /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */; };
@@ -35,7 +35,7 @@
 		9A0C9754740EC40A5A6E5B8E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47F8C02F4B964562B0333A4 /* CFNetwork.framework */; };
 		9C953E34089A4B7C6CAD7066 /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2746ED6390D9CF7B240C02 /* Feature.framework */; };
 		9CBCAFF70D23219F539247B6 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DC95C364244F938C7DFCCA /* Clocks.framework */; };
-		9E5BA72861F02B20CF391C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */; };
+		9E5BA72861F02B20CF391C3B /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AF0F50BDCFE6FC0B5D90B0 /* AppMainView.swift */; };
 		A2A4A09451193E19B534201C /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9D8CEDB1ED18F7500F840 /* Domain.framework */; };
 		A4C1045E8FABFE9B70B80B29 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */; };
 		B245C58A3C7ED10016056A0B /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD20FDB83BC2E8595770794 /* CustomDump.framework */; };
@@ -118,7 +118,7 @@
 		A445C66880DC63E9958A59AA /* OPeace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPeace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DC95C364244F938C7DFCCA /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C9D8CEDB1ED18F7500F840 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8AF0F50BDCFE6FC0B5D90B0 /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
 		D9678ED159E24A7980155D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DCD20FDB83BC2E8595770794 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE77E1B0D4071D61EFEBAD16 /* OPeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPeaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,7 +278,7 @@
 		4DAC7528990F65298350287D /* Presentations */ = {
 			isa = PBXGroup;
 			children = (
-				B8AF0F50BDCFE6FC0B5D90B0 /* ContentView.swift */,
+				B8AF0F50BDCFE6FC0B5D90B0 /* AppMainView.swift */,
 			);
 			path = Presentations;
 			sourceTree = "<group>";
@@ -437,7 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC8923659198D603F255B5D /* OpeaceApp.swift in Sources */,
-				9E5BA72861F02B20CF391C3B /* ContentView.swift in Sources */,
+				9E5BA72861F02B20CF391C3B /* AppMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				314B9EA24F32792C4AC44C8E /* OpeaceApp.swift in Sources */,
-				530D7A4D24BD734459A5B33F /* ContentView.swift in Sources */,
+				530D7A4D24BD734459A5B33F /* AppMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

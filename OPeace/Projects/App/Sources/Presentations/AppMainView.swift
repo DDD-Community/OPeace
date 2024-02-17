@@ -10,8 +10,10 @@ import Foundation
 import SwiftUI
 import Moya
 import Feature
+import ComposableArchitecture
 
-struct ContentView: View {
+
+struct AppMainView: View {
     
     @State var path: [ViewContent] = []
     
@@ -32,5 +34,5 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    AppMainView()
 }

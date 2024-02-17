@@ -14,7 +14,7 @@ import Feature
 struct OpeaceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppMainView()
         }
     }
 }
