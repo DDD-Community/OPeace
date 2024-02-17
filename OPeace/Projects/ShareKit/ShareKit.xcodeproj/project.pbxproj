@@ -11,6 +11,7 @@
 		137FB33C6049A4FCFB4BFD9F /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B8F96F2D7E4E7CC8F1A2B /* DependenciesMacros.framework */; };
 		159ADE0F3C57EC30C0D8BBF4 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC85F2C303AB80C6FC8F48 /* test.swift */; };
 		1AC479E376E9007EC1217447 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF6137B4B98842F38BF6FCC /* XCTestDynamicOverlay.framework */; };
+		23B389EA36A57AFBEF9BBA93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F1F65C936F42E1947E86A3 /* Alamofire.framework */; };
 		3C93D1BDBE0C2D0FC5AE9014 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6089D1BF09532092A94A3EA1 /* Dependencies.framework */; };
 		45E2BF6C5886BD44C4C8F082 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC85F2C303AB80C6FC8F48 /* test.swift */; };
 		468A88518DA62C90AECDD1C5 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0807E22634A17BCF696EEE /* CasePaths.framework */; };
@@ -19,12 +20,16 @@
 		5DAF972C74C61C1A47375616 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E058C6B74D85A5B2B65C6F4 /* CombineSchedulers.framework */; };
 		61837D262EC0E197A9BC9B50 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B74B51113FA93E786E267992 /* ComposableArchitecture.framework */; };
 		6C8E8CA2C1279BC49A07A8A1 /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC63D6E0C4783D297C6DBD5 /* ShareKit.framework */; };
+		757E30ACA82B236C2CC22099 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCEBD36BB7DC7D664E166A0 /* Moya.framework */; };
 		93EA37EAC62970E1DA3C91C0 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDF1AE2A61CB554F4F9F364 /* IdentifiedCollections.framework */; };
 		94957CFFCA80A56CD419D592 /* ComposableArchitecture.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = B74B51113FA93E786E267992 /* ComposableArchitecture.framework */; };
 		A877FFD1E80DDAAC66CD5336 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC9BDB9E588858C46692ABE /* Clocks.framework */; };
 		AF5A2B2FCB2484AA19CFC729 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25E1DBE451966BE7C2B3FC1 /* OrderedCollections.framework */; };
 		B2E9CE0102D2426053B4928D /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881B84F7FA3DF201ECDB4374 /* ConcurrencyExtras.framework */; };
+		CB7D4AC2AEA7DC0786FF4A94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF227D08D00E805A2C2A707 /* CFNetwork.framework */; };
+		D7C037B40FA32395B16688C2 /* Moya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1BCEBD36BB7DC7D664E166A0 /* Moya.framework */; };
 		F29892371C225C697B6213CA /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74B51113FA93E786E267992 /* ComposableArchitecture.framework */; };
+		F6A5DE13290E3D4772562E4E /* Moya.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 1BCEBD36BB7DC7D664E166A0 /* Moya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				94957CFFCA80A56CD419D592 /* ComposableArchitecture.framework in Dependencies */,
+				D7C037B40FA32395B16688C2 /* Moya.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -74,6 +80,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				61837D262EC0E197A9BC9B50 /* ComposableArchitecture.framework in Dependencies */,
+				F6A5DE13290E3D4772562E4E /* Moya.framework in Dependencies */,
 			);
 			name = Dependencies;
 			runOnlyForDeploymentPostprocessing = 1;
@@ -95,9 +102,12 @@
 		13B3DD7FEEE514392265ABC7 /* ShareKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ShareKitTests-Info.plist"; sourceTree = "<group>"; };
 		1AF6137B4B98842F38BF6FCC /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB71CEC97567EE44AEDF24D /* ShareKit_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareKit_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCEBD36BB7DC7D664E166A0 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0807E22634A17BCF696EEE /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF227D08D00E805A2C2A707 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		3CDC85F2C303AB80C6FC8F48 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		4E058C6B74D85A5B2B65C6F4 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F1F65C936F42E1947E86A3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6089D1BF09532092A94A3EA1 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C5A9D8E758407B59904051 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881B84F7FA3DF201ECDB4374 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +142,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7D4AC2AEA7DC0786FF4A94 /* CFNetwork.framework in Frameworks */,
+				23B389EA36A57AFBEF9BBA93 /* Alamofire.framework in Frameworks */,
 				468A88518DA62C90AECDD1C5 /* CasePaths.framework in Frameworks */,
 				A877FFD1E80DDAAC66CD5336 /* Clocks.framework in Frameworks */,
 				5DAF972C74C61C1A47375616 /* CombineSchedulers.framework in Frameworks */,
@@ -141,6 +153,7 @@
 				3C93D1BDBE0C2D0FC5AE9014 /* Dependencies.framework in Frameworks */,
 				137FB33C6049A4FCFB4BFD9F /* DependenciesMacros.framework in Frameworks */,
 				93EA37EAC62970E1DA3C91C0 /* IdentifiedCollections.framework in Frameworks */,
+				757E30ACA82B236C2CC22099 /* Moya.framework in Frameworks */,
 				AF5A2B2FCB2484AA19CFC729 /* OrderedCollections.framework in Frameworks */,
 				6C8E8CA2C1279BC49A07A8A1 /* ShareKit.framework in Frameworks */,
 				50A4092E5C24B7CDCBB418BB /* SwiftUINavigationCore.framework in Frameworks */,
@@ -154,6 +167,7 @@
 		076772DB87A8663857F84F52 /* Compiled */ = {
 			isa = PBXGroup;
 			children = (
+				2EF227D08D00E805A2C2A707 /* CFNetwork.framework */,
 			);
 			name = Compiled;
 			sourceTree = "<group>";
@@ -222,6 +236,7 @@
 		B8E8D51219BAE6E3A0FEF4F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				55F1F65C936F42E1947E86A3 /* Alamofire.framework */,
 				2B0807E22634A17BCF696EEE /* CasePaths.framework */,
 				0DC9BDB9E588858C46692ABE /* Clocks.framework */,
 				4E058C6B74D85A5B2B65C6F4 /* CombineSchedulers.framework */,
@@ -231,6 +246,7 @@
 				6089D1BF09532092A94A3EA1 /* Dependencies.framework */,
 				D77B8F96F2D7E4E7CC8F1A2B /* DependenciesMacros.framework */,
 				ABDF1AE2A61CB554F4F9F364 /* IdentifiedCollections.framework */,
+				1BCEBD36BB7DC7D664E166A0 /* Moya.framework */,
 				C25E1DBE451966BE7C2B3FC1 /* OrderedCollections.framework */,
 				1BB71CEC97567EE44AEDF24D /* ShareKit_Dev.framework */,
 				EDC63D6E0C4783D297C6DBD5 /* ShareKit.framework */,
