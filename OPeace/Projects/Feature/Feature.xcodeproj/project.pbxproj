@@ -11,6 +11,7 @@
 		07DF8A4490BDE47FB8529B4D /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206ADBFB3491FA04066C674E /* Dependencies.framework */; };
 		0CC52FF6BEC133617005C749 /* Core.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
 		1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181A00B70FC904171153F6B /* MainCardView.swift */; };
+		297BC97960B13AD83B307A6B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E00506F2E131018CF1007F /* CFNetwork.framework */; };
 		326273393988933F1413F5BD /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22757DDE6DA035D6F268779B /* DependenciesMacros.framework */; };
 		34F00D9609DC8513B12BE669 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */; };
 		37512EEFCA5F306960FC5675 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30171831478092EEDBF5188C /* CombineSchedulers.framework */; };
@@ -21,7 +22,6 @@
 		5C35EF444E0822648961A282 /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA41E830426C0FD43F195DC /* SwiftUINavigationCore.framework */; };
 		65B33DE38AC5AC33FBFAA183 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F13669E401562BFF939EC0 /* ComposableArchitecture.framework */; };
 		74796393DC0390F8339C6ABD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A063BF35DFA77C20F94350 /* Moya.framework */; };
-		7869BA58F22795E2335F07A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB18CA433FAE55AC1AAC3BCE /* CFNetwork.framework */; };
 		7FD9AF681594845FB080ADD5 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */; };
 		862880EB556519403F9522C4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */; };
 		873B6A62BF2FACA7402ED29C /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C4B197AD238EB123653B0 /* OrderedCollections.framework */; };
@@ -118,6 +118,7 @@
 		841C4B197AD238EB123653B0 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8867A4C73D211CAFCC002BC2 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A611D1693834F821CBD6EAD /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E00506F2E131018CF1007F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		A215FBB13B09E45FD00ED57C /* Feature-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Feature-Info.plist"; sourceTree = "<group>"; };
 		A32AC9C0958FF38D95B497DE /* Feature-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Feature-Dev-Info.plist"; sourceTree = "<group>"; };
 		B21FE99931A73382EA26F28D /* Feature_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +129,6 @@
 		C5D27ED35E4328D411D71116 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D181A00B70FC904171153F6B /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
 		D2E966455637831DC7FA52A6 /* FeatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB18CA433FAE55AC1AAC3BCE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		E01F9B301EAA49A194EC8B48 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31760A33CE0283B1C942BEA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7869BA58F22795E2335F07A4 /* CFNetwork.framework in Frameworks */,
+				297BC97960B13AD83B307A6B /* CFNetwork.framework in Frameworks */,
 				AA71EC7283F6D2DC02A33016 /* Alamofire.framework in Frameworks */,
 				F2DEFA07015FAC35235C0DC0 /* CasePaths.framework in Frameworks */,
 				E0A7BCA844386706E04AF1A6 /* Clocks.framework in Frameworks */,
@@ -199,17 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				C05AC50F60B178F60E99048B /* Project */,
-				7459B9AEA394A3D4F887B3D4 /* Compiled */,
+				FF84802DBECE1160D2AE52BE /* Frameworks */,
 				F37C3A4FE623C846745B9CE2 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		7459B9AEA394A3D4F887B3D4 /* Compiled */ = {
-			isa = PBXGroup;
-			children = (
-				DB18CA433FAE55AC1AAC3BCE /* CFNetwork.framework */,
-			);
-			name = Compiled;
 			sourceTree = "<group>";
 		};
 		7CD9C88464D9A1825DB2DA5E /* Sources */ = {
@@ -275,6 +267,14 @@
 				FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FF84802DBECE1160D2AE52BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E00506F2E131018CF1007F /* CFNetwork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +449,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
 				SDKROOT = iphoneos;
@@ -483,6 +491,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
 				SDKROOT = iphoneos;
@@ -509,6 +525,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
@@ -542,6 +566,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
 				SDKROOT = iphoneos;
@@ -577,6 +609,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
 				SDKROOT = iphoneos;
@@ -716,6 +756,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
