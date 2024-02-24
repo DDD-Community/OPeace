@@ -29,6 +29,7 @@ public enum DesignSystemKitAsset {
     public static let grayScale400 = DesignSystemKitColors(name: "GrayScale400")
     public static let grayScale500 = DesignSystemKitColors(name: "GrayScale500")
     public static let grayScale600 = DesignSystemKitColors(name: "GrayScale600")
+    public static let primaryBlack37 = DesignSystemKitColors(name: "PrimaryBlack37")
   }
   public enum ImageAsset {
   public static let imgBackgroundGradientGreenDot = DesignSystemKitImages(name: "Img.Background.Gradient.Green.Dot")

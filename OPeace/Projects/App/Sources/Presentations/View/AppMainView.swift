@@ -15,7 +15,8 @@ import DesignSystemKit
 
 struct AppMainView: View {
     
-    @State var path: [ViewContent] = []
+    let store: StoreOf<AppMainFeature>
+    
     @State private var isActiveSplashView = true
     
     var body: some View {
@@ -28,17 +29,19 @@ struct AppMainView: View {
                     })
                 }
         } else {
-            NavigationStack(path: $path) {
-                Text("Hello, World!")
-                Button(action: {
-                    path.append(ViewContent(number: 0, content: "onboardingContent"))
-                }, label: {
-                    Text("다음화면으로 이동")
-                        .foregroundStyle(DesignSystemKitAsset.ColorAsset.grayScale100.swiftUIColor)
-                })
-                .navigationDestination(for: ViewContent.self) { next in
-                    OnBoardingView(number: next.number, content: next.content, path: $path)
+            WithViewStore(self.store, observe: { $0 }) { viewStore in
+                VStack {
+                    Spacer()
+                    Image(uiImage: DesignSystemKitAsset.ImageAsset.imgOpeaceGreenLogo.image)
+                        .frame(width: 100, height: 100)
+                    Text("회원가입하기")
+                        .padding(.top, 50)
+                        .font(.system(.largeTitle))
+                        .foregroundStyle(.white)
+                    Spacer()
                 }
+                .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
             }
         }
     }
@@ -46,5 +49,10 @@ struct AppMainView: View {
 
 
 #Preview {
-    AppMainView()
+    AppMainView(
+        store: Store(initialState: AppMainFeature.State(), reducer: {
+            AppMainFeature()
+                ._printChanges()
+        })
+    )
 }

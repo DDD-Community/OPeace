@@ -9,12 +9,16 @@
 import Foundation
 import SwiftUI
 import Feature
+import ComposableArchitecture
 
 @main
 struct OpeaceApp: App {
     var body: some Scene {
         WindowGroup {
-            AppMainView()
+            AppMainView(
+                store: Store(initialState: AppMainFeature.State(), reducer: {
+                    AppMainFeature()
+                }))
         }
     }
 }

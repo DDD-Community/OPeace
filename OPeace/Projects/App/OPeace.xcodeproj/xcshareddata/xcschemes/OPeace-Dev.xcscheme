@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2F1E58DFE4272F4D92DF2D4D"
-               BuildableName = "OPeace_Dev.app"
+               BuildableName = "OPeace.app"
                BlueprintName = "OPeace-Dev"
                ReferencedContainer = "container:OPeace.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2F1E58DFE4272F4D92DF2D4D"
-            BuildableName = "OPeace_Dev.app"
+            BuildableName = "OPeace.app"
             BlueprintName = "OPeace-Dev"
             ReferencedContainer = "container:OPeace.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2F1E58DFE4272F4D92DF2D4D"
-            BuildableName = "OPeace_Dev.app"
+            BuildableName = "OPeace.app"
             BlueprintName = "OPeace-Dev"
             ReferencedContainer = "container:OPeace.xcodeproj">
          </BuildableReference>

@@ -13,7 +13,6 @@
 		1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181A00B70FC904171153F6B /* MainCardView.swift */; };
 		297BC97960B13AD83B307A6B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E00506F2E131018CF1007F /* CFNetwork.framework */; };
 		326273393988933F1413F5BD /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22757DDE6DA035D6F268779B /* DependenciesMacros.framework */; };
-		34F00D9609DC8513B12BE669 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */; };
 		37512EEFCA5F306960FC5675 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30171831478092EEDBF5188C /* CombineSchedulers.framework */; };
 		42F4CEDEE04716E2DD22D412 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C747A7858A77344C12E8D8A /* CustomDump.framework */; };
 		45BE70C49765789617D6D3E9 /* DesignSystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38C6516B7B879FE57F684BC /* DesignSystemKit.framework */; };
@@ -24,14 +23,15 @@
 		65B33DE38AC5AC33FBFAA183 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F13669E401562BFF939EC0 /* ComposableArchitecture.framework */; };
 		74796393DC0390F8339C6ABD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A063BF35DFA77C20F94350 /* Moya.framework */; };
 		7FD9AF681594845FB080ADD5 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */; };
-		862880EB556519403F9522C4 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */; };
 		873B6A62BF2FACA7402ED29C /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C4B197AD238EB123653B0 /* OrderedCollections.framework */; };
 		9B69B47757BE4626315A9E59 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
 		AA71EC7283F6D2DC02A33016 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31760A33CE0283B1C942BEA /* Alamofire.framework */; };
 		B225F9A401E0F4EAD85C41FF /* Core.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
+		BF7CE9DE216891F7B71B8121 /* SignUpAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */; };
 		C51A5CC9F7AFCB633CE9C492 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 256FB16C3CC8F3C26197FBB9 /* Domain.framework */; };
 		CCC56E790BAA0D489AF72850 /* DesignSystemKit_DesignSystemKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB33C6B9CA2DC59CDBA254 /* DesignSystemKit_DesignSystemKit.bundle */; };
 		CE09B9EAC11796787957F8A5 /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6AE57115356E0D54874FBB /* ShareKit.framework */; };
+		DBEFE24EFE0DF11052A23D41 /* SignUpAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */; };
 		DFE92B20ACFED2C09AB33134 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 256FB16C3CC8F3C26197FBB9 /* Domain.framework */; };
 		E0A7BCA844386706E04AF1A6 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01F9B301EAA49A194EC8B48 /* Clocks.framework */; };
 		F18D082F3E9E652F79222C92 /* DesignSystemKit_DesignSystemKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 4FAB33C6B9CA2DC59CDBA254 /* DesignSystemKit_DesignSystemKit.bundle */; };
@@ -118,6 +118,7 @@
 
 /* Begin PBXFileReference section */
 		193C8100AE711AAFBB33D697 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAgreementView.swift; sourceTree = "<group>"; };
 		206ADBFB3491FA04066C674E /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22757DDE6DA035D6F268779B /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		256FB16C3CC8F3C26197FBB9 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,7 +139,6 @@
 		B21FE99931A73382EA26F28D /* Feature_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78413B4F2C5686A242B2B51 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		B9F13669E401562BFF939EC0 /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		BDA41E830426C0FD43F195DC /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D27ED35E4328D411D71116 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D181A00B70FC904171153F6B /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				D181A00B70FC904171153F6B /* MainCardView.swift */,
-				BAF4416AC86EAFB601D9C99C /* OnBoardingView.swift */,
+				1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -418,7 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C11533D43484A67ADC6AC8 /* MainCardView.swift in Sources */,
-				862880EB556519403F9522C4 /* OnBoardingView.swift in Sources */,
+				DBEFE24EFE0DF11052A23D41 /* SignUpAgreementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */,
-				34F00D9609DC8513B12BE669 /* OnBoardingView.swift in Sources */,
+				BF7CE9DE216891F7B71B8121 /* SignUpAgreementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,11 +471,11 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
@@ -513,11 +513,11 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
@@ -548,11 +548,11 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
@@ -588,11 +588,11 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
@@ -631,9 +631,9 @@
 				MACH_O_TYPE = staticlib;
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);

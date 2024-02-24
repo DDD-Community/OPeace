@@ -11,23 +11,23 @@ import SwiftUI
 
 struct MainCardView: View {
     
-    var number: Int
-    var content: String
-    @Binding var path: [ViewContent]
-    
+//    var number: Int
+//    var content: String
+//    @Binding var path: [ViewContent]
+//    
     var body: some View {
         Text("메인카드 뷰")
     }
-    
-    public init (
-        number: Int,
-        content: String,
-        path: Binding<[ViewContent]>
-    ) {
-        self.number = number
-        self.content = content
-        self._path = path
-    }
+//    
+//    public init (
+//        number: Int,
+//        content: String,
+//        path: Binding<[ViewContent]>
+//    ) {
+//        self.number = number
+//        self.content = content
+//        self._path = path
+//    }
     
     
 }

@@ -7,3 +7,25 @@
 //
 
 import Foundation
+import ComposableArchitecture
+
+struct AppMainFeature: Reducer {
+    
+    struct State: Equatable {
+        
+    }
+    
+    enum Action: Equatable {
+        
+    }
+    
+    var body: some ReducerOf<Self> {
+        Reduce { state, action in
+            switch action{
+            default:
+                return .none
+            }
+        }
+    }
+    
+}
