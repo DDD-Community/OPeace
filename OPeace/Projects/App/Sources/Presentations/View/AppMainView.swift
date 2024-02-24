@@ -29,19 +29,35 @@ struct AppMainView: View {
                     })
                 }
         } else {
-            WithViewStore(self.store, observe: { $0 }) { viewStore in
-                VStack {
-                    Spacer()
-                    Image(uiImage: DesignSystemKitAsset.ImageAsset.imgOpeaceGreenLogo.image)
-                        .frame(width: 100, height: 100)
-                    Text("회원가입하기")
-                        .padding(.top, 50)
-                        .font(.system(.largeTitle))
-                        .foregroundStyle(.white)
-                    Spacer()
+            NavigationStackStore(
+                self.store.scope(state: \.path, action: { .path($0) })
+            ) {
+                WithViewStore(self.store, observe: { $0 }) { viewStore in
+                    VStack {
+                        Spacer()
+                        Image(uiImage: DesignSystemKitAsset.ImageAsset.imgOpeaceGreenLogo.image)
+                            .frame(width: 100, height: 100)
+                        Text("회원가입하기")
+                            .padding(.top, 50)
+                            .font(.system(.largeTitle))
+                            .foregroundStyle(.white)
+                            .onTapGesture {
+                                viewStore.send(.signUpButtonTapped)
+                            }
+                        Spacer()
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                    .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
                 }
-                .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+            } destination: { (state: AppMainFeature.Path.State) in
+                switch state {
+                case .signUpAgreement:
+                    CaseLet(
+                        /AppMainFeature.Path.State.signUpAgreement,
+                         action: AppMainFeature.Path.Action.signUPAgreement,
+                         then: SignUpAgreementView.init(store:)
+                    )
+                }
             }
         }
     }
