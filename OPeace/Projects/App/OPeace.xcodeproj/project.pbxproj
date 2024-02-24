@@ -13,6 +13,7 @@
 		181F46F0548B9C0F912140F3 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */; };
 		196CD8FCD2663E266A67BF57 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9D8CEDB1ED18F7500F840 /* Domain.framework */; };
 		1AD38619FB40811DC7F067BB /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCB6C88557610302866AB9 /* test.swift */; };
+		1B06342E61FEF9C669770D08 /* _CollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37360C035C246BBC6221B53B /* _CollectionsUtilities.framework */; };
 		1D664278779A032A03566588 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064CBB3A96D35D0C6C8E239C /* CombineSchedulers.framework */; };
 		2552F6C9A88E89E2AACDF60F /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD20FDB83BC2E8595770794 /* CustomDump.framework */; };
 		2D28E94B89C4962BF8DFC08B /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */; };
@@ -38,6 +39,7 @@
 		775C07C9FCAAD5AF0676E327 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7389C99AC044DB6FCAE886 /* Alamofire.framework */; };
 		7D9BBA2B49EEFBDF4C3A1A7E /* TuistBundle+OPeace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E284EB4A91928A78EE95343 /* TuistBundle+OPeace.swift */; };
 		86347834E8A602D119AF426E /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 08024CA62FDEBA52DA85240D /* test.swift */; };
+		8A1C3EDB397B1402D94A93B1 /* _CollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37360C035C246BBC6221B53B /* _CollectionsUtilities.framework */; };
 		8EECF7F75015510BC2417539 /* DesignSystemKit_DesignSystemKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 42963B49AB32BC6E6C882B11 /* DesignSystemKit_DesignSystemKit.bundle */; };
 		8FAA6055E1C01F7EE6D4C8C4 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F7EF819168A470F989D372 /* DependenciesMacros.framework */; };
 		90391EF432358320EB3A1B8C /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = 08024CA62FDEBA52DA85240D /* test.swift */; };
@@ -67,6 +69,8 @@
 		EFA3BC38583E02E302778D34 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
 		F158DFF9976A4C38DBA6E12C /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D574A6935030AF818EFD7F3 /* Dependencies.framework */; };
 		F4F4653691EAC15358FBFC99 /* DesignSystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D459FD4C268F6FFAF978E01 /* DesignSystemKit.framework */; };
+		FB46B7712B8A3F6300F84201 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46B7702B8A3F6300F84201 /* CustomAlertView.swift */; };
+		FB46B7722B8A3F6300F84201 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46B7702B8A3F6300F84201 /* CustomAlertView.swift */; };
 		FF22C045B31275A728EA2AC2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13A4E62393B0F4732C6FAD /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -147,10 +151,11 @@
 		1DF08C930417B00E79450B51 /* ShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CCB6C88557610302866AB9 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37360C035C246BBC6221B53B /* _CollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _CollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EB1E0DCC56F5D20F7CF97B /* OPeaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OPeaceTests-Info.plist"; sourceTree = "<group>"; };
 		42963B49AB32BC6E6C882B11 /* DesignSystemKit_DesignSystemKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemKit_DesignSystemKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B55DC475ABD37BFA2E1B5E /* AppMainFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainFeature.swift; sourceTree = "<group>"; };
-		4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = OPeace_Dev.app; path = OPeace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPeace_Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7EF819168A470F989D372 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		583CB22BB158FAFEB92160FF /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
 		5B2746ED6390D9CF7B240C02 /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,10 +170,11 @@
 		B5C9D8CEDB1ED18F7500F840 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9678ED159E24A7980155D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DCD20FDB83BC2E8595770794 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE77E1B0D4071D61EFEBAD16 /* OPeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OPeaceTests.xctest; path = OPeace.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE77E1B0D4071D61EFEBAD16 /* OPeaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPeaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CB125698D4770B881D957A /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB46B7702B8A3F6300F84201 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomAlertView.swift; path = "../../../../../../../../.Trash/OPeace 오전 12.06.47/OPeace/Projects/App/Sources/Presentations/View/CustomAlertView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +210,7 @@
 				B64D517CE1C04AB2731F919A /* ShareKit.framework in Frameworks */,
 				5ED77D480D2EED7CAB8198BF /* SwiftUINavigationCore.framework in Frameworks */,
 				C9573E22755598E058524EF3 /* XCTestDynamicOverlay.framework in Frameworks */,
+				8A1C3EDB397B1402D94A93B1 /* _CollectionsUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +239,7 @@
 				72DCFE1729F948D6E033C7F1 /* ShareKit.framework in Frameworks */,
 				2D3B37AD95DAF35887F02AC5 /* SwiftUINavigationCore.framework in Frameworks */,
 				EFA3BC38583E02E302778D34 /* XCTestDynamicOverlay.framework in Frameworks */,
+				1B06342E61FEF9C669770D08 /* _CollectionsUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,7 @@
 		3F2247ADAAE2A17A5F1DF0E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				37360C035C246BBC6221B53B /* _CollectionsUtilities.framework */,
 				7D7389C99AC044DB6FCAE886 /* Alamofire.framework */,
 				0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */,
 				B3DC95C364244F938C7DFCCA /* Clocks.framework */,
@@ -387,6 +396,7 @@
 			children = (
 				583CB22BB158FAFEB92160FF /* AppMainView.swift */,
 				5C89683A2BF4DA865C6F0452 /* SplashView.swift */,
+				FB46B7702B8A3F6300F84201 /* CustomAlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -535,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9BBA2B49EEFBDF4C3A1A7E /* TuistBundle+OPeace.swift in Sources */,
+				FB46B7712B8A3F6300F84201 /* CustomAlertView.swift in Sources */,
 				2DFBC73E6BDFAD220CE414DE /* test.swift in Sources */,
 				6DC8923659198D603F255B5D /* OpeaceApp.swift in Sources */,
 				A22B2FCD428ECB7BF912BAFE /* AppMainFeature.swift in Sources */,
@@ -548,6 +559,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D1E864535B4A8BDD77DC08B /* TuistBundle+OPeaceDev.swift in Sources */,
+				FB46B7722B8A3F6300F84201 /* CustomAlertView.swift in Sources */,
 				3E28FAB660E8E9C2E92C98B2 /* test.swift in Sources */,
 				314B9EA24F32792C4AC44C8E /* OpeaceApp.swift in Sources */,
 				9CCBDD6762078E6D0534BC2D /* AppMainFeature.swift in Sources */,
@@ -581,7 +593,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DISPLAY_NAME = "OPeace-Dev";
 				INFOPLIST_FILE = "Derived/InfoPlists/OPeaceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -589,12 +600,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.OPeaceTests;
-				PRODUCT_NAME = "OPeace-Dev";
+				PRODUCT_NAME = OPeaceTests;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -613,8 +622,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
-				DISPLAY_NAME = OPeace;
 				INFOPLIST_FILE = "Derived/InfoPlists/OPeaceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -622,12 +629,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.OPeaceTests;
-				PRODUCT_NAME = OPeace;
+				PRODUCT_NAME = OPeaceTests;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -645,8 +650,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
-				DISPLAY_NAME = OPeace;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -654,12 +657,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
-				PRODUCT_NAME = OPeace;
+				PRODUCT_NAME = OPeace_Dev;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -675,7 +676,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DISPLAY_NAME = OPeace;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -683,12 +683,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
-				PRODUCT_NAME = OPeace;
+				PRODUCT_NAME = OPeace_Dev;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -779,7 +777,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DISPLAY_NAME = OPeace;
 				INFOPLIST_FILE = "Derived/InfoPlists/OPeaceTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -787,12 +784,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.OPeaceTests;
-				PRODUCT_NAME = OPeace;
+				PRODUCT_NAME = OPeaceTests;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -811,8 +806,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_ASSET_PATHS = "\"Resources/Preview Content\"";
-				DISPLAY_NAME = OPeace;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -820,12 +813,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
 				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
 				PRODUCT_NAME = OPeace;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -840,11 +831,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development: sunghun yeom (R5SDJ945WS)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = M527AM6YJ5;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = M527AM6YJ5;
-				DISPLAY_NAME = OPeace;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -852,15 +839,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_CODE_SIGN_FLAGS = "--keychain /Users/devyeom/Developer/DDD/OPeace/OPeace/Projects/App/Derived/signing.keychain";
-				OTHER_LDFLAGS = "-all_load";
 				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
 				PRODUCT_NAME = OPeace;
-				PROVISIONING_PROFILE_SPECIFIER = "d80c8bd3-aad6-4ef1-af21-9c235807ee70";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Opeace sign in";
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -877,7 +859,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DISPLAY_NAME = "OPeace-Dev";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -885,12 +866,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
-				PRODUCT_NAME = "OPeace-Dev";
+				PRODUCT_NAME = OPeace_Dev;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -907,7 +886,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DISPLAY_NAME = "OPeace-Dev";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Support/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -915,12 +893,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-all_load";
 				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
-				PRODUCT_NAME = "OPeace-Dev";
+				PRODUCT_NAME = OPeace;
 				SDKROOT = iphoneos;
-				STRIP_STYLE = "non-global";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;

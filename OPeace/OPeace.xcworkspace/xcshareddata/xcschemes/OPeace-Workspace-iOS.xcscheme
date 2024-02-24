@@ -421,7 +421,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2F1E58DFE4272F4D92DF2D4D"
-               BuildableName = "OPeace.app"
+               BuildableName = "OPeace_Dev.app"
                BlueprintName = "OPeace-Dev"
                ReferencedContainer = "container:Projects/App/OPeace.xcodeproj">
             </BuildableReference>
@@ -435,7 +435,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D846BAB7A4553FDE0C61B023"
-               BuildableName = "OPeace.xctest"
+               BuildableName = "OPeaceTests.xctest"
                BlueprintName = "OPeaceTests"
                ReferencedContainer = "container:Projects/App/OPeace.xcodeproj">
             </BuildableReference>
@@ -692,6 +692,20 @@
                ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/xctest-dynamic-overlay/xctest-dynamic-overlay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F851A7D40D2AFF8DF7B942D1"
+               BuildableName = "_CollectionsUtilities.framework"
+               BlueprintName = "_CollectionsUtilities"
+               ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-collections/swift-collections.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -755,7 +769,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D846BAB7A4553FDE0C61B023"
-               BuildableName = "OPeace.xctest"
+               BuildableName = "OPeaceTests.xctest"
                BlueprintName = "OPeaceTests"
                ReferencedContainer = "container:Projects/App/OPeace.xcodeproj">
             </BuildableReference>
