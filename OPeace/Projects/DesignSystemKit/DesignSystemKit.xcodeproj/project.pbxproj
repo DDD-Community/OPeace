@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0210B458E7ED80AE015E6167 /* TuistBundle+DesignSystemKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAB2895799B697A4392347 /* TuistBundle+DesignSystemKit.swift */; };
+		0DFF64F954F6054611F219EF /* ImageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4208B5FCFE2DA6DEB63C56EE /* ImageAsset.xcassets */; };
 		105D56BD965D449AD3C15463 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC95DC13EB1E3231537F343 /* test.swift */; };
 		1AD74E433CFC42689806ABB6 /* TuistBundle+DesignSystemKitDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE78B3E1BD91B95242465E2 /* TuistBundle+DesignSystemKitDev.swift */; };
 		1BEFC7589524904BFD6ACBA0 /* DesignSystemKit_DesignSystemKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B938314C01D6626358846E8D /* DesignSystemKit_DesignSystemKit.bundle */; };
-		21728953716366CEDF7A9CEE /* ColorAssset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80ACB52F4C164FCB8BBA196 /* ColorAssset.xcassets */; };
-		44F45DE0BE5F1A7244012865 /* ColorAssset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80ACB52F4C164FCB8BBA196 /* ColorAssset.xcassets */; };
 		58BF23EABDA261866A38706C /* TuistAssets+DesignSystemKitDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E759175E31A92054B53666 /* TuistAssets+DesignSystemKitDev.swift */; };
 		75F2C65E2DFF1CBF57F7E16E /* DesignSystemKit_DesignSystemKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = B938314C01D6626358846E8D /* DesignSystemKit_DesignSystemKit.bundle */; };
 		7F3F26FE098E2E6D6E1FC2C7 /* TuistAssets+DesignSystemKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFBA0ED558494761DCFAFA /* TuistAssets+DesignSystemKit.swift */; };
+		82DA8AFAC8C27D578834384B /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8214B3BA6B22195E5908B1 /* ColorAsset.xcassets */; };
 		8874F3930D79E3AF7193D603 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC95DC13EB1E3231537F343 /* test.swift */; };
 		BB9C85A6874355D4DDA023CF /* DesignSystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F561D615AF1D2EA253F6B920 /* DesignSystemKit.framework */; };
+		BE9B5EF39E26FED96D046F79 /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8214B3BA6B22195E5908B1 /* ColorAsset.xcassets */; };
 		D4DE959BA5EBDECB7DF1FB3B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6137C8DEC7DD145CD6C33E29 /* test.swift */; };
+		DD8B8DB052BD7EC4A7FE4E37 /* ImageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4208B5FCFE2DA6DEB63C56EE /* ImageAsset.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		18AAB2895799B697A4392347 /* TuistBundle+DesignSystemKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DesignSystemKit.swift"; sourceTree = "<group>"; };
 		26BE99F86B5CBDDA1A69E5D8 /* DesignSystemKit-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemKit-Dev-Info.plist"; sourceTree = "<group>"; };
 		2CF077CD737DB604DD621E4C /* DesignSystemKit_DesignSystemKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemKit_DesignSystemKit-Info.plist"; sourceTree = "<group>"; };
+		2D8214B3BA6B22195E5908B1 /* ColorAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAsset.xcassets; sourceTree = "<group>"; };
+		4208B5FCFE2DA6DEB63C56EE /* ImageAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAsset.xcassets; sourceTree = "<group>"; };
 		4FC95DC13EB1E3231537F343 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		57B56F6BA2179F908EBE6C23 /* DesignSystemKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemKitTests-Info.plist"; sourceTree = "<group>"; };
 		6137C8DEC7DD145CD6C33E29 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
@@ -123,7 +127,6 @@
 		B938314C01D6626358846E8D /* DesignSystemKit_DesignSystemKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemKit_DesignSystemKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AFBA0ED558494761DCFAFA /* TuistAssets+DesignSystemKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DesignSystemKit.swift"; sourceTree = "<group>"; };
 		D427FA3D1703A2D86FEA0879 /* DesignSystemKit_DesignSystemKit_Dev.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemKit_DesignSystemKit_Dev.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E80ACB52F4C164FCB8BBA196 /* ColorAssset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssset.xcassets; sourceTree = "<group>"; };
 		F561D615AF1D2EA253F6B920 /* DesignSystemKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystemKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CB09C5690D4CE24452877E /* DesignSystemKit_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystemKit_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -200,7 +203,8 @@
 		7A790EA171A69FB5439BA61D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E80ACB52F4C164FCB8BBA196 /* ColorAssset.xcassets */,
+				2D8214B3BA6B22195E5908B1 /* ColorAsset.xcassets */,
+				4208B5FCFE2DA6DEB63C56EE /* ImageAsset.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -411,7 +415,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21728953716366CEDF7A9CEE /* ColorAssset.xcassets in Resources */,
+				82DA8AFAC8C27D578834384B /* ColorAsset.xcassets in Resources */,
+				0DFF64F954F6054611F219EF /* ImageAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +431,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44F45DE0BE5F1A7244012865 /* ColorAssset.xcassets in Resources */,
+				BE9B5EF39E26FED96D046F79 /* ColorAsset.xcassets in Resources */,
+				DD8B8DB052BD7EC4A7FE4E37 /* ImageAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

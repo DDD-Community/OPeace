@@ -20,14 +20,21 @@
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public enum DesignSystemKitDevAsset {
+  public enum ColorAsset {
   public static let graySacleB = DesignSystemKitDevColors(name: "GraySacle.B")
-  public static let grayScaleW = DesignSystemKitDevColors(name: "GrayScale.W")
-  public static let grayScale100 = DesignSystemKitDevColors(name: "GrayScale100")
-  public static let grayScale200 = DesignSystemKitDevColors(name: "GrayScale200")
-  public static let grayScale300 = DesignSystemKitDevColors(name: "GrayScale300")
-  public static let grayScale400 = DesignSystemKitDevColors(name: "GrayScale400")
-  public static let grayScale500 = DesignSystemKitDevColors(name: "GrayScale500")
-  public static let grayScale600 = DesignSystemKitDevColors(name: "GrayScale600")
+    public static let grayScaleW = DesignSystemKitDevColors(name: "GrayScale.W")
+    public static let grayScale100 = DesignSystemKitDevColors(name: "GrayScale100")
+    public static let grayScale200 = DesignSystemKitDevColors(name: "GrayScale200")
+    public static let grayScale300 = DesignSystemKitDevColors(name: "GrayScale300")
+    public static let grayScale400 = DesignSystemKitDevColors(name: "GrayScale400")
+    public static let grayScale500 = DesignSystemKitDevColors(name: "GrayScale500")
+    public static let grayScale600 = DesignSystemKitDevColors(name: "GrayScale600")
+  }
+  public enum ImageAsset {
+  public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "Img.Background.Gradient.Green.Dot")
+    public static let imgOpeaceGreenLogo = DesignSystemKitDevImages(name: "Img.Opeace.Green.Logo")
+    public static let imgOpeaceSplashLogo = DesignSystemKitDevImages(name: "Img.Opeace.Splash.Logo")
+  }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 
@@ -92,6 +99,73 @@ public extension SwiftUI.Color {
   init(asset: DesignSystemKitDevColors) {
     let bundle = DesignSystemKitDevResources.bundle
     self.init(asset.name, bundle: bundle)
+  }
+}
+#endif
+
+public struct DesignSystemKitDevImages {
+  public fileprivate(set) var name: String
+
+  #if os(macOS)
+  public typealias Image = NSImage
+  #elseif os(iOS) || os(tvOS) || os(watchOS)
+  public typealias Image = UIImage
+  #endif
+
+  public var image: Image {
+    let bundle = DesignSystemKitDevResources.bundle
+    #if os(iOS) || os(tvOS)
+    let image = Image(named: name, in: bundle, compatibleWith: nil)
+    #elseif os(macOS)
+    let image = bundle.image(forResource: NSImage.Name(name))
+    #elseif os(watchOS)
+    let image = Image(named: name)
+    #endif
+    guard let result = image else {
+      fatalError("Unable to load image asset named \(name).")
+    }
+    return result
+  }
+
+  #if canImport(SwiftUI)
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  public var swiftUIImage: SwiftUI.Image {
+    SwiftUI.Image(asset: self)
+  }
+  #endif
+}
+
+public extension DesignSystemKitDevImages.Image {
+  @available(macOS, deprecated,
+    message: "This initializer is unsafe on macOS, please use the DesignSystemKitDevImages.image property")
+  convenience init?(asset: DesignSystemKitDevImages) {
+    #if os(iOS) || os(tvOS)
+    let bundle = DesignSystemKitDevResources.bundle
+    self.init(named: asset.name, in: bundle, compatibleWith: nil)
+    #elseif os(macOS)
+    self.init(named: NSImage.Name(asset.name))
+    #elseif os(watchOS)
+    self.init(named: asset.name)
+    #endif
+  }
+}
+
+#if canImport(SwiftUI)
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+public extension SwiftUI.Image {
+  init(asset: DesignSystemKitDevImages) {
+    let bundle = DesignSystemKitDevResources.bundle
+    self.init(asset.name, bundle: bundle)
+  }
+
+  init(asset: DesignSystemKitDevImages, label: Text) {
+    let bundle = DesignSystemKitDevResources.bundle
+    self.init(asset.name, bundle: bundle, label: label)
+  }
+
+  init(decorative asset: DesignSystemKitDevImages) {
+    let bundle = DesignSystemKitDevResources.bundle
+    self.init(decorative: asset.name, bundle: bundle)
   }
 }
 #endif

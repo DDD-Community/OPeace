@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06D86ADA0EFCE9E9E7285CEC /* DesignSystemKit_DesignSystemKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42963B49AB32BC6E6C882B11 /* DesignSystemKit_DesignSystemKit.bundle */; };
+		096BCC418BA980C865DAF2C3 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CB22BB158FAFEB92160FF /* AppMainView.swift */; };
 		15D77C945CDE60033C695BFB /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C7F7074430E076D9A8F093 /* OrderedCollections.framework */; };
 		181F46F0548B9C0F912140F3 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */; };
 		196CD8FCD2663E266A67BF57 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9D8CEDB1ED18F7500F840 /* Domain.framework */; };
@@ -32,7 +33,7 @@
 		6B06454EBE65FF7958F32348 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13A4E62393B0F4732C6FAD /* CFNetwork.framework */; };
 		6CF65A3AB345A78CFD3B3E3B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A4ACB716AA0BF22075AE1B /* Moya.framework */; };
 		6DC8923659198D603F255B5D /* OpeaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D38A4CA1E3521DD8538BE /* OpeaceApp.swift */; };
-		70455FF507D8D67954F30EE5 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F42B224D613A418B853CA95 /* AppMainView.swift */; };
+		6EE4086E3420BD564AB88333 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89683A2BF4DA865C6F0452 /* SplashView.swift */; };
 		72DCFE1729F948D6E033C7F1 /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF08C930417B00E79450B51 /* ShareKit.framework */; };
 		775C07C9FCAAD5AF0676E327 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7389C99AC044DB6FCAE886 /* Alamofire.framework */; };
 		7D9BBA2B49EEFBDF4C3A1A7E /* TuistBundle+OPeace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E284EB4A91928A78EE95343 /* TuistBundle+OPeace.swift */; };
@@ -43,9 +44,12 @@
 		9811C9EEE25648577909CB0C /* DesignSystemKit_DesignSystemKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 42963B49AB32BC6E6C882B11 /* DesignSystemKit_DesignSystemKit.bundle */; };
 		9C953E34089A4B7C6CAD7066 /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2746ED6390D9CF7B240C02 /* Feature.framework */; };
 		9CBCAFF70D23219F539247B6 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DC95C364244F938C7DFCCA /* Clocks.framework */; };
+		9CCBDD6762078E6D0534BC2D /* AppMainFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B55DC475ABD37BFA2E1B5E /* AppMainFeature.swift */; };
 		9D1E864535B4A8BDD77DC08B /* TuistBundle+OPeaceDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1EEF65416062C63F1B3BD6 /* TuistBundle+OPeaceDev.swift */; };
+		A22B2FCD428ECB7BF912BAFE /* AppMainFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B55DC475ABD37BFA2E1B5E /* AppMainFeature.swift */; };
 		A2A4A09451193E19B534201C /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C9D8CEDB1ED18F7500F840 /* Domain.framework */; };
 		A4C1045E8FABFE9B70B80B29 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */; };
+		B10718682CE7A08A595BD044 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C89683A2BF4DA865C6F0452 /* SplashView.swift */; };
 		B245C58A3C7ED10016056A0B /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD20FDB83BC2E8595770794 /* CustomDump.framework */; };
 		B64D517CE1C04AB2731F919A /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF08C930417B00E79450B51 /* ShareKit.framework */; };
 		BBAC2EF966D7B2C0550CB9F0 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DC95C364244F938C7DFCCA /* Clocks.framework */; };
@@ -53,11 +57,11 @@
 		BD5CD72C48EA3FBB29C538BC /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7CD16D4BE579298838632D /* ConcurrencyExtras.framework */; };
 		BD748F6D9C95E52A9FE596EA /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2746ED6390D9CF7B240C02 /* Feature.framework */; };
 		C172050A2C5A683F5D1B027B /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CB125698D4770B881D957A /* Network.framework */; };
+		C66C9ACE971D24E22ED52CF7 /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583CB22BB158FAFEB92160FF /* AppMainView.swift */; };
 		C753AB905C9649FA346C7B77 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A62E719CD13379021A1018E /* ComposableArchitecture.framework */; };
 		C8A68F2CB6935D5E16566F5E /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */; };
 		C9573E22755598E058524EF3 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
 		CD7F08C63C19FD51233AE426 /* DesignSystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D459FD4C268F6FFAF978E01 /* DesignSystemKit.framework */; };
-		D14799530A23685A758FA35F /* AppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F42B224D613A418B853CA95 /* AppMainView.swift */; };
 		D7FB274EE0887678903BA7B7 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A866663F825CB4532CC39D /* Core.framework */; };
 		EE9B2EC8D458321DD012D5C3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7389C99AC044DB6FCAE886 /* Alamofire.framework */; };
 		EFA3BC38583E02E302778D34 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE957440EFEAB5E2C301F1D /* XCTestDynamicOverlay.framework */; };
@@ -142,13 +146,15 @@
 		0ED7023CBA52FE02F5CAA754 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF08C930417B00E79450B51 /* ShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CCB6C88557610302866AB9 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		2F42B224D613A418B853CA95 /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
 		3483BF4857D46DB99371764A /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EB1E0DCC56F5D20F7CF97B /* OPeaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OPeaceTests-Info.plist"; sourceTree = "<group>"; };
 		42963B49AB32BC6E6C882B11 /* DesignSystemKit_DesignSystemKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemKit_DesignSystemKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B55DC475ABD37BFA2E1B5E /* AppMainFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainFeature.swift; sourceTree = "<group>"; };
 		4B5F6A7E244E786398E4A327 /* OPeace_Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPeace_Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F7EF819168A470F989D372 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583CB22BB158FAFEB92160FF /* AppMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMainView.swift; sourceTree = "<group>"; };
 		5B2746ED6390D9CF7B240C02 /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C89683A2BF4DA865C6F0452 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		7D7389C99AC044DB6FCAE886 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A866663F825CB4532CC39D /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897CF9DC164F1166044C3EB8 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,7 +326,8 @@
 		4DAC7528990F65298350287D /* Presentations */ = {
 			isa = PBXGroup;
 			children = (
-				2F42B224D613A418B853CA95 /* AppMainView.swift */,
+				ADD185D2658254F476CBD36C /* Reducer */,
+				DDD9533A8D54B8E63CB26A83 /* View */,
 			);
 			path = Presentations;
 			sourceTree = "<group>";
@@ -359,12 +366,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ADD185D2658254F476CBD36C /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				43B55DC475ABD37BFA2E1B5E /* AppMainFeature.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
 		C01D06E37F2879FD9EB651AB /* OPeaceTests */ = {
 			isa = PBXGroup;
 			children = (
 				681CA21C138E4CFAEB9EDBF8 /* Sources */,
 			);
 			path = OPeaceTests;
+			sourceTree = "<group>";
+		};
+		DDD9533A8D54B8E63CB26A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				583CB22BB158FAFEB92160FF /* AppMainView.swift */,
+				5C89683A2BF4DA865C6F0452 /* SplashView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E7F8C20A3A8E3CA0E2581356 /* Support */ = {
@@ -513,7 +537,9 @@
 				7D9BBA2B49EEFBDF4C3A1A7E /* TuistBundle+OPeace.swift in Sources */,
 				2DFBC73E6BDFAD220CE414DE /* test.swift in Sources */,
 				6DC8923659198D603F255B5D /* OpeaceApp.swift in Sources */,
-				70455FF507D8D67954F30EE5 /* AppMainView.swift in Sources */,
+				A22B2FCD428ECB7BF912BAFE /* AppMainFeature.swift in Sources */,
+				096BCC418BA980C865DAF2C3 /* AppMainView.swift in Sources */,
+				6EE4086E3420BD564AB88333 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +550,9 @@
 				9D1E864535B4A8BDD77DC08B /* TuistBundle+OPeaceDev.swift in Sources */,
 				3E28FAB660E8E9C2E92C98B2 /* test.swift in Sources */,
 				314B9EA24F32792C4AC44C8E /* OpeaceApp.swift in Sources */,
-				D14799530A23685A758FA35F /* AppMainView.swift in Sources */,
+				9CCBDD6762078E6D0534BC2D /* AppMainFeature.swift in Sources */,
+				C66C9ACE971D24E22ED52CF7 /* AppMainView.swift in Sources */,
+				B10718682CE7A08A595BD044 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,11 +626,11 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.OPeaceTests;
 				PRODUCT_NAME = OPeaceTests;
@@ -633,9 +661,9 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
@@ -666,11 +694,11 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
 				PRODUCT_NAME = OPeace_Dev;
@@ -810,11 +838,11 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
 				PRODUCT_NAME = OPeace;
@@ -843,11 +871,11 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
 				PRODUCT_NAME = OPeace;
@@ -877,9 +905,9 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
@@ -911,11 +939,11 @@
 				);
 				OTHER_SWIFT_FLAGS = (
 					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 					"-load-plugin-executable",
 					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace;
 				PRODUCT_NAME = OPeace;
