@@ -3,37 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C11533D43484A67ADC6AC8 /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181A00B70FC904171153F6B /* MainCardView.swift */; };
 		07DF8A4490BDE47FB8529B4D /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206ADBFB3491FA04066C674E /* Dependencies.framework */; };
 		0CC52FF6BEC133617005C749 /* Core.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
-		1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D181A00B70FC904171153F6B /* MainCardView.swift */; };
 		297BC97960B13AD83B307A6B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E00506F2E131018CF1007F /* CFNetwork.framework */; };
 		326273393988933F1413F5BD /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22757DDE6DA035D6F268779B /* DependenciesMacros.framework */; };
 		37512EEFCA5F306960FC5675 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30171831478092EEDBF5188C /* CombineSchedulers.framework */; };
+		3A105AD92B8A12B07EEC6ABF /* SignUpAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66722F1D8745C674E107D597 /* SignUpAgreementView.swift */; };
 		42F4CEDEE04716E2DD22D412 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C747A7858A77344C12E8D8A /* CustomDump.framework */; };
 		45BE70C49765789617D6D3E9 /* DesignSystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38C6516B7B879FE57F684BC /* DesignSystemKit.framework */; };
 		514DFF40DE2F8812E0D8CB37 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8867A4C73D211CAFCC002BC2 /* IdentifiedCollections.framework */; };
 		542E7EE732A480A488C09FD1 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256FB16C3CC8F3C26197FBB9 /* Domain.framework */; };
 		557CC946E7EE7230826A750F /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193C8100AE711AAFBB33D697 /* ConcurrencyExtras.framework */; };
 		5C35EF444E0822648961A282 /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA41E830426C0FD43F195DC /* SwiftUINavigationCore.framework */; };
+		5EC5297750454C2043DDED79 /* SignUpAgreementFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F530685B2CB35F2F373882F /* SignUpAgreementFeature.swift */; };
+		623586F08AF9477AA1B660EE /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CFE306E316808FE6CFEDD9 /* RootFeature.swift */; };
 		65B33DE38AC5AC33FBFAA183 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F13669E401562BFF939EC0 /* ComposableArchitecture.framework */; };
+		6AA5D34FFA555B4E56AF542A /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E589EA0775DDBC22A81459C /* MainCardView.swift */; };
 		74796393DC0390F8339C6ABD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A063BF35DFA77C20F94350 /* Moya.framework */; };
 		7FD9AF681594845FB080ADD5 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */; };
-		847300B32B8A121100E2597B /* SignUpAgreementFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847300B22B8A121100E2597B /* SignUpAgreementFeature.swift */; };
-		847300B72B8A1B0900E2597B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847300B62B8A1B0900E2597B /* RootView.swift */; };
-		847300B92B8A1B0E00E2597B /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847300B82B8A1B0E00E2597B /* RootFeature.swift */; };
 		873B6A62BF2FACA7402ED29C /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C4B197AD238EB123653B0 /* OrderedCollections.framework */; };
 		9B69B47757BE4626315A9E59 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
+		9EFBB0EE961401BB01E43701 /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CFE306E316808FE6CFEDD9 /* RootFeature.swift */; };
+		A4A97D703E3F715B6B556CDC /* MainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E589EA0775DDBC22A81459C /* MainCardView.swift */; };
 		AA71EC7283F6D2DC02A33016 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31760A33CE0283B1C942BEA /* Alamofire.framework */; };
+		AF85554073EC1D3F2AC85658 /* SignUpAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66722F1D8745C674E107D597 /* SignUpAgreementView.swift */; };
 		B225F9A401E0F4EAD85C41FF /* Core.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
+		C0E60008F825657DE244EB07 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A73E03B4AEB0C70F17D41B0 /* RootView.swift */; };
 		C51A5CC9F7AFCB633CE9C492 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 256FB16C3CC8F3C26197FBB9 /* Domain.framework */; };
+		C8812A42CFDC28017082EE1F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A73E03B4AEB0C70F17D41B0 /* RootView.swift */; };
 		CCC56E790BAA0D489AF72850 /* DesignSystemKit_DesignSystemKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB33C6B9CA2DC59CDBA254 /* DesignSystemKit_DesignSystemKit.bundle */; };
 		CE09B9EAC11796787957F8A5 /* ShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6AE57115356E0D54874FBB /* ShareKit.framework */; };
-		DBEFE24EFE0DF11052A23D41 /* SignUpAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */; };
+		CF7A0B89BCF438362C754E3C /* _CollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A36428072C440F0EF446FC /* _CollectionsUtilities.framework */; };
 		DFE92B20ACFED2C09AB33134 /* Domain.framework in Dependencies */ = {isa = PBXBuildFile; fileRef = 256FB16C3CC8F3C26197FBB9 /* Domain.framework */; };
 		E0A7BCA844386706E04AF1A6 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01F9B301EAA49A194EC8B48 /* Clocks.framework */; };
 		F18D082F3E9E652F79222C92 /* DesignSystemKit_DesignSystemKit.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = 4FAB33C6B9CA2DC59CDBA254 /* DesignSystemKit_DesignSystemKit.bundle */; };
@@ -41,6 +45,7 @@
 		F4123BA0D3124D4C0497F69D /* Feature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A611D1693834F821CBD6EAD /* Feature.framework */; };
 		F645FD3A217C7E3545381047 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D27ED35E4328D411D71116 /* Network.framework */; };
 		F99AD7ACE5EC9673EA57B19B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78413B4F2C5686A242B2B51 /* test.swift */; };
+		FEBC8ADB66254E064DFAEB34 /* SignUpAgreementFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F530685B2CB35F2F373882F /* SignUpAgreementFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,7 +125,6 @@
 
 /* Begin PBXFileReference section */
 		193C8100AE711AAFBB33D697 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAgreementView.swift; sourceTree = "<group>"; };
 		206ADBFB3491FA04066C674E /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22757DDE6DA035D6F268779B /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		256FB16C3CC8F3C26197FBB9 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,15 +133,16 @@
 		35F364327687E6A20628F831 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6AE57115356E0D54874FBB /* ShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAB33C6B9CA2DC59CDBA254 /* DesignSystemKit_DesignSystemKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemKit_DesignSystemKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E589EA0775DDBC22A81459C /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
 		646BC1F2E9B39BF7F444F74F /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A063BF35DFA77C20F94350 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66722F1D8745C674E107D597 /* SignUpAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAgreementView.swift; sourceTree = "<group>"; };
 		6C747A7858A77344C12E8D8A /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C4B197AD238EB123653B0 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		847300B22B8A121100E2597B /* SignUpAgreementFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAgreementFeature.swift; sourceTree = "<group>"; };
-		847300B62B8A1B0900E2597B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		847300B82B8A1B0E00E2597B /* RootFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFeature.swift; sourceTree = "<group>"; };
 		8867A4C73D211CAFCC002BC2 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A611D1693834F821CBD6EAD /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A73E03B4AEB0C70F17D41B0 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8F530685B2CB35F2F373882F /* SignUpAgreementFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAgreementFeature.swift; sourceTree = "<group>"; };
 		90E00506F2E131018CF1007F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		A215FBB13B09E45FD00ED57C /* Feature-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Feature-Info.plist"; sourceTree = "<group>"; };
 		A32AC9C0958FF38D95B497DE /* Feature-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Feature-Dev-Info.plist"; sourceTree = "<group>"; };
@@ -146,11 +151,12 @@
 		B9F13669E401562BFF939EC0 /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA41E830426C0FD43F195DC /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D27ED35E4328D411D71116 /* Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D181A00B70FC904171153F6B /* MainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardView.swift; sourceTree = "<group>"; };
 		D2E966455637831DC7FA52A6 /* FeatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38C6516B7B879FE57F684BC /* DesignSystemKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystemKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01F9B301EAA49A194EC8B48 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31760A33CE0283B1C942BEA /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A36428072C440F0EF446FC /* _CollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _CollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CFE306E316808FE6CFEDD9 /* RootFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFeature.swift; sourceTree = "<group>"; };
 		FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,6 +186,7 @@
 				CE09B9EAC11796787957F8A5 /* ShareKit.framework in Frameworks */,
 				5C35EF444E0822648961A282 /* SwiftUINavigationCore.framework in Frameworks */,
 				7FD9AF681594845FB080ADD5 /* XCTestDynamicOverlay.framework in Frameworks */,
+				CF7A0B89BCF438362C754E3C /* _CollectionsUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +207,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA8926997F212C76168BBAE /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F2CFE306E316808FE6CFEDD9 /* RootFeature.swift */,
+				8A73E03B4AEB0C70F17D41B0 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		47D9A39E45687A9BACB2BEC5 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,45 +244,19 @@
 		7CD9C88464D9A1825DB2DA5E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				847300B52B8A1AFD00E2597B /* Root */,
-				847300AC2B8A115100E2597B /* MainCard */,
-				847300AB2B8A113900E2597B /* SignUp */,
+				7EDDFDA3A48032ECAA2A2009 /* MainCard */,
+				1CA8926997F212C76168BBAE /* Root */,
+				9EAB955E4655799C2A22D2D6 /* SignUp */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		847300AB2B8A113900E2597B /* SignUp */ = {
+		7EDDFDA3A48032ECAA2A2009 /* MainCard */ = {
 			isa = PBXGroup;
 			children = (
-				847300B42B8A141F00E2597B /* Agreement */,
-			);
-			path = SignUp;
-			sourceTree = "<group>";
-		};
-		847300AC2B8A115100E2597B /* MainCard */ = {
-			isa = PBXGroup;
-			children = (
-				D181A00B70FC904171153F6B /* MainCardView.swift */,
+				5E589EA0775DDBC22A81459C /* MainCardView.swift */,
 			);
 			path = MainCard;
-			sourceTree = "<group>";
-		};
-		847300B42B8A141F00E2597B /* Agreement */ = {
-			isa = PBXGroup;
-			children = (
-				1DAD054340A769704AA7FF72 /* SignUpAgreementView.swift */,
-				847300B22B8A121100E2597B /* SignUpAgreementFeature.swift */,
-			);
-			path = Agreement;
-			sourceTree = "<group>";
-		};
-		847300B52B8A1AFD00E2597B /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				847300B62B8A1B0900E2597B /* RootView.swift */,
-				847300B82B8A1B0E00E2597B /* RootFeature.swift */,
-			);
-			path = Root;
 			sourceTree = "<group>";
 		};
 		8C17B49EF75A76A51AF5F709 /* Sources */ = {
@@ -277,6 +267,14 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		9EAB955E4655799C2A22D2D6 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C005BAB512F83CA1A9B02 /* Agreement */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		AA476BACFF1FE77A2E869E4B /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +283,15 @@
 				2FCF902DF7D9CA7A6F12E920 /* FeatureTests-Info.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		AB5C005BAB512F83CA1A9B02 /* Agreement */ = {
+			isa = PBXGroup;
+			children = (
+				8F530685B2CB35F2F373882F /* SignUpAgreementFeature.swift */,
+				66722F1D8745C674E107D597 /* SignUpAgreementView.swift */,
+			);
+			path = Agreement;
 			sourceTree = "<group>";
 		};
 		C05AC50F60B178F60E99048B /* Project */ = {
@@ -300,6 +307,7 @@
 		F37C3A4FE623C846745B9CE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				E4A36428072C440F0EF446FC /* _CollectionsUtilities.framework */,
 				E31760A33CE0283B1C942BEA /* Alamofire.framework */,
 				646BC1F2E9B39BF7F444F74F /* CasePaths.framework */,
 				E01F9B301EAA49A194EC8B48 /* Clocks.framework */,
@@ -404,6 +412,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				ORGANIZATIONNAME = Yeom;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 31B40DEAC22225C89EF80B24 /* Build configuration list for PBXProject "Feature" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -455,11 +465,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847300B92B8A1B0E00E2597B /* RootFeature.swift in Sources */,
-				847300B72B8A1B0900E2597B /* RootView.swift in Sources */,
-				02C11533D43484A67ADC6AC8 /* MainCardView.swift in Sources */,
-				DBEFE24EFE0DF11052A23D41 /* SignUpAgreementView.swift in Sources */,
-				847300B32B8A121100E2597B /* SignUpAgreementFeature.swift in Sources */,
+				6AA5D34FFA555B4E56AF542A /* MainCardView.swift in Sources */,
+				9EFBB0EE961401BB01E43701 /* RootFeature.swift in Sources */,
+				C0E60008F825657DE244EB07 /* RootView.swift in Sources */,
+				5EC5297750454C2043DDED79 /* SignUpAgreementFeature.swift in Sources */,
+				3A105AD92B8A12B07EEC6ABF /* SignUpAgreementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +477,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA5560C11E8201F4A5E597E /* MainCardView.swift in Sources */,
+				A4A97D703E3F715B6B556CDC /* MainCardView.swift in Sources */,
+				623586F08AF9477AA1B660EE /* RootFeature.swift in Sources */,
+				C8812A42CFDC28017082EE1F /* RootView.swift in Sources */,
+				FEBC8ADB66254E064DFAEB34 /* SignUpAgreementFeature.swift in Sources */,
+				AF85554073EC1D3F2AC85658 /* SignUpAgreementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +523,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
 				SDKROOT = iphoneos;
@@ -544,7 +565,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
 				SDKROOT = iphoneos;
@@ -572,7 +600,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin";
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
 				SDKROOT = iphoneos;
@@ -605,7 +640,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros";
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
 				SDKROOT = iphoneos;
@@ -641,7 +683,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
 				SDKROOT = iphoneos;
@@ -782,7 +831,14 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
 				SDKROOT = iphoneos;

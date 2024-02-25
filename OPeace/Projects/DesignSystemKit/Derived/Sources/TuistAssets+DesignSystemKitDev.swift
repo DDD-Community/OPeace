@@ -32,9 +32,9 @@ public enum DesignSystemKitDevAsset {
     public static let primaryBlack37 = DesignSystemKitDevColors(name: "PrimaryBlack37")
   }
   public enum ImageAsset {
-  public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "Img.Background.Gradient.Green.Dot")
-    public static let imgOpeaceGreenLogo = DesignSystemKitDevImages(name: "Img.Opeace.Green.Logo")
+  public static let imgOpeaceGreenLogo = DesignSystemKitDevImages(name: "Img.Opeace.Green.Logo")
     public static let imgOpeaceSplashLogo = DesignSystemKitDevImages(name: "Img.Opeace.Splash.Logo")
+    public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "img.background.gradient.green.dot")
   }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
