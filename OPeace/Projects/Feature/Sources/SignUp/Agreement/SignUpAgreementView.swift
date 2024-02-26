@@ -17,15 +17,22 @@ public struct SignUpAgreementView:View {
         self.store = store
     }
     
-    let store: StoreOf<SignUpAgreementFeature>
+    @Bindable var store: StoreOf<SignUpAgreementFeature>
     
     public var body: some View {
-        WithViewStore(self.store, observe: { $0 }) { viewStore in
-            VStack {
-                Text("이용 약관 동의")
-            }
-            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-            .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+        VStack {
+            Spacer()
+            Text("이용 약관 동의")
+                .font(.system(size: 24))
+                .foregroundStyle(DesignSystemKitAsset.ColorAsset.grayScaleW.swiftUIColor)
+                .onTapGesture {
+                    store.send(.signUpNameButtonTapped)
+                }
+            Text("원활한 서비스 이용을 위해 동의해 주세요")
+                .font(.system(size: 16))
+                .foregroundStyle(DesignSystemKitAsset.ColorAsset.grayScale300.swiftUIColor)
         }
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
+        .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
     }
 }
