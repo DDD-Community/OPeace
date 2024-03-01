@@ -42,7 +42,7 @@ struct AppMainView: View {
                         .onTapGesture {
                             store.send(.signUpButtonTapped)
                         }
-                    Spacer()
+                      Spacer()
                 }
                 .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)

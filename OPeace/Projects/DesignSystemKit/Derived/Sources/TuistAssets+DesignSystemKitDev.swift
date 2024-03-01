@@ -30,9 +30,13 @@ public enum DesignSystemKitDevAsset {
     public static let grayScale500 = DesignSystemKitDevColors(name: "GrayScale500")
     public static let grayScale600 = DesignSystemKitDevColors(name: "GrayScale600")
     public static let primaryBlack37 = DesignSystemKitDevColors(name: "PrimaryBlack37")
+    public static let primaryGreen = DesignSystemKitDevColors(name: "PrimaryGreen")
   }
   public enum ImageAsset {
-  public static let imgOpeaceGreenLogo = DesignSystemKitDevImages(name: "Img.Opeace.Green.Logo")
+  public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "Img.Background.Gradient.Green.Dot")
+    public static let imgCircleCheckRoundGray = DesignSystemKitDevImages(name: "Img.CircleCheck.Round.Gray")
+    public static let imgCircleCheckRoundGreen = DesignSystemKitDevImages(name: "Img.CircleCheck.Round.Green")
+    public static let imgOpeaceGreenLogo = DesignSystemKitDevImages(name: "Img.Opeace.Green.Logo")
     public static let imgOpeaceSplashLogo = DesignSystemKitDevImages(name: "Img.Opeace.Splash.Logo")
     public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "img.background.gradient.green.dot")
   }

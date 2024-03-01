@@ -60,7 +60,7 @@ struct AppMainFeature {
                 state.path.append(.signUpAgreement(.init()))
                 return .none
             //이렇게 하위뷰에서 들어오는 이벤트를 상위뷰인 AppMainFeature에서 처리하게 할 수 있다.
-            case let .path(.element(id: _, action: .signUPAgreement(.signUpNameButtonTapped))):
+            case .path(.element(id: _, action: .signUPAgreement(.nextButtonTapped))):
                 state.path.append(.signUpName(.init()))
                 return .none
             default:
