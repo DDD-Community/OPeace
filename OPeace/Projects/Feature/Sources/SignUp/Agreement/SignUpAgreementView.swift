@@ -23,10 +23,11 @@ public struct SignUpAgreementView:View {
         VStack {
             Spacer()
             Text("이용 약관 동의")
-                .font(.system(size: 24))
+                .font(DesignSystemKitFontFamily.Pretendard.bold.swiftUIFont(size: 24))
                 .foregroundStyle(DesignSystemKitAsset.ColorAsset.grayScaleW.swiftUIColor)
+                .padding(.bottom, 8)
             Text("원활한 서비스 이용을 위해 동의해 주세요")
-                .font(.system(size: 16))
+                .font(DesignSystemKitFontFamily.Pretendard.medium.swiftUIFont(size: 16))
                 .foregroundStyle(DesignSystemKitAsset.ColorAsset.grayScale300.swiftUIColor)
             Spacer()
             CheckTitleView(action: {
@@ -96,7 +97,7 @@ public struct CheckTitleView: View {
                 .frame(width: 20, height: 20)
                 .padding(.init(top: 0, leading: 30, bottom: 0, trailing: 0))
             Text(text)
-                .font(DesignSystemKitFontFamily.Pretendard.bold.swiftUIFont(size: 16))
+                .font(DesignSystemKitFontFamily.Pretendard.semiBold.swiftUIFont(size: 16))
                 .foregroundStyle(.white)
             Spacer()
         }.onTapGesture {

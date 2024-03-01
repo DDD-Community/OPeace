@@ -19,13 +19,6 @@ public struct SignUpNameView:View {
     @Bindable var store: StoreOf<SignUpNameFeature>
     
     public var body: some View {
-        VStack {
-            Spacer()
-            Text("이름 입력화면")
-                .foregroundStyle(.white)
-            Spacer()
-        }
-        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-        .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+        Text("이름입력화면")
     }
 }

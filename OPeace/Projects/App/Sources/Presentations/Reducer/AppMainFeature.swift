@@ -32,13 +32,13 @@ struct AppMainFeature {
         @ObservableState
         public enum State {
             case signUpAgreement(SignUpAgreementFeature.State)
-            case signUpName(SignUpNameFeature.State)
+            case signUpPaging(SignUpPagingFeature.State)
         }
         
         //하위뷰의 Action을 받아올 수 있게 rootView인 AppMainFeature에서 하위뷰의 Actiond을 갖고 있따.
         public enum Action: Equatable {
             case signUPAgreement(SignUpAgreementFeature.Action)
-            case signUpName(SignUpNameFeature.Action)
+            case signUpPaging(SignUpPagingFeature.Action)
         }
         
         //
@@ -47,8 +47,8 @@ struct AppMainFeature {
                 SignUpAgreementFeature()
             }
             
-            Scope(state: /State.signUpName, action: /Action.signUpName) {
-                SignUpNameFeature()
+            Scope(state: /State.signUpPaging, action: /Action.signUpPaging) {
+                SignUpPagingFeature()
             }
         }
     }
@@ -61,7 +61,7 @@ struct AppMainFeature {
                 return .none
             //이렇게 하위뷰에서 들어오는 이벤트를 상위뷰인 AppMainFeature에서 처리하게 할 수 있다.
             case .path(.element(id: _, action: .signUPAgreement(.nextButtonTapped))):
-                state.path.append(.signUpName(.init()))
+                state.path.append(.signUpPaging(.init()))
                 return .none
             default:
                 return .none

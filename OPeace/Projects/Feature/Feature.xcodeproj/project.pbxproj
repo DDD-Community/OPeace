@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,10 @@
 		72E28B7A6D3AEE4BCA026901 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DB1AB2B2FCF62962F51566 /* Perception.framework */; };
 		74796393DC0390F8339C6ABD /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A063BF35DFA77C20F94350 /* Moya.framework */; };
 		7FD9AF681594845FB080ADD5 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA948B661FFFA01E755108AF /* XCTestDynamicOverlay.framework */; };
+		8405CD692B92300F00DEA0E7 /* SignUpPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405CD682B92300F00DEA0E7 /* SignUpPagingView.swift */; };
+		8405CD6B2B92301A00DEA0E7 /* SignUpPagingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405CD6A2B92301A00DEA0E7 /* SignUpPagingFeature.swift */; };
+		8405CD6E2B9238B500DEA0E7 /* SignUpBirthDayFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405CD6D2B9238B500DEA0E7 /* SignUpBirthDayFeature.swift */; };
+		8405CD702B92390B00DEA0E7 /* SignUpBirthDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405CD6F2B92390B00DEA0E7 /* SignUpBirthDayView.swift */; };
 		873B6A62BF2FACA7402ED29C /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C4B197AD238EB123653B0 /* OrderedCollections.framework */; };
 		9B69B47757BE4626315A9E59 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F364327687E6A20628F831 /* Core.framework */; };
 		9EFBB0EE961401BB01E43701 /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CFE306E316808FE6CFEDD9 /* RootFeature.swift */; };
@@ -145,6 +149,10 @@
 		64A063BF35DFA77C20F94350 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66722F1D8745C674E107D597 /* SignUpAgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAgreementView.swift; sourceTree = "<group>"; };
 		6C747A7858A77344C12E8D8A /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8405CD682B92300F00DEA0E7 /* SignUpPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPagingView.swift; sourceTree = "<group>"; };
+		8405CD6A2B92301A00DEA0E7 /* SignUpPagingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPagingFeature.swift; sourceTree = "<group>"; };
+		8405CD6D2B9238B500DEA0E7 /* SignUpBirthDayFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpBirthDayFeature.swift; sourceTree = "<group>"; };
+		8405CD6F2B92390B00DEA0E7 /* SignUpBirthDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpBirthDayView.swift; sourceTree = "<group>"; };
 		841C4B197AD238EB123653B0 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8867A4C73D211CAFCC002BC2 /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A611D1693834F821CBD6EAD /* Feature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -275,6 +283,24 @@
 			path = MainCard;
 			sourceTree = "<group>";
 		};
+		8405CD672B922FF100DEA0E7 /* Paging */ = {
+			isa = PBXGroup;
+			children = (
+				8405CD682B92300F00DEA0E7 /* SignUpPagingView.swift */,
+				8405CD6A2B92301A00DEA0E7 /* SignUpPagingFeature.swift */,
+			);
+			path = Paging;
+			sourceTree = "<group>";
+		};
+		8405CD6C2B9238A100DEA0E7 /* BirthDay */ = {
+			isa = PBXGroup;
+			children = (
+				8405CD6D2B9238B500DEA0E7 /* SignUpBirthDayFeature.swift */,
+				8405CD6F2B92390B00DEA0E7 /* SignUpBirthDayView.swift */,
+			);
+			path = BirthDay;
+			sourceTree = "<group>";
+		};
 		8C17B49EF75A76A51AF5F709 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,7 +313,9 @@
 			isa = PBXGroup;
 			children = (
 				AB5C005BAB512F83CA1A9B02 /* Agreement */,
+				8405CD672B922FF100DEA0E7 /* Paging */,
 				65FE2B1B6E7B1E024684218D /* Name */,
+				8405CD6C2B9238A100DEA0E7 /* BirthDay */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -430,8 +458,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				ORGANIZATIONNAME = Yeom;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 31B40DEAC22225C89EF80B24 /* Build configuration list for PBXProject "Feature" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -483,13 +509,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8405CD702B92390B00DEA0E7 /* SignUpBirthDayView.swift in Sources */,
+				8405CD692B92300F00DEA0E7 /* SignUpPagingView.swift in Sources */,
 				6AA5D34FFA555B4E56AF542A /* MainCardView.swift in Sources */,
+				8405CD6B2B92301A00DEA0E7 /* SignUpPagingFeature.swift in Sources */,
 				9EFBB0EE961401BB01E43701 /* RootFeature.swift in Sources */,
 				C0E60008F825657DE244EB07 /* RootView.swift in Sources */,
 				5EC5297750454C2043DDED79 /* SignUpAgreementFeature.swift in Sources */,
 				3A105AD92B8A12B07EEC6ABF /* SignUpAgreementView.swift in Sources */,
 				BFAFA0C3338DAA30B4DAEFD6 /* SignUpNameFeature.swift in Sources */,
 				CBC75FF0313887ED04F09D3F /* SignUpNameView.swift in Sources */,
+				8405CD6E2B9238B500DEA0E7 /* SignUpBirthDayFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,16 +575,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = (
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-				);
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
 				SDKROOT = iphoneos;
@@ -589,16 +610,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = (
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
-				);
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
 				SDKROOT = iphoneos;
@@ -626,16 +638,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-				);
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
 				SDKROOT = iphoneos;
@@ -668,16 +671,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = (
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-				);
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature_Dev;
 				SDKROOT = iphoneos;
@@ -713,16 +707,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				OTHER_SWIFT_FLAGS = (
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-				);
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature;
 				PRODUCT_NAME = Feature;
 				SDKROOT = iphoneos;
@@ -863,16 +848,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
-					"-load-plugin-executable",
-					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
-				);
+				OTHER_SWIFT_FLAGS = "-load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros -load-plugin-executable $BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Emo.OPeace.Feature.FeatureTests;
 				PRODUCT_NAME = FeatureTests;
 				SDKROOT = iphoneos;

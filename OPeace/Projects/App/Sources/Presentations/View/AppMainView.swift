@@ -53,9 +53,9 @@ struct AppMainView: View {
                     if let store = store.scope(state: \.signUpAgreement, action: \.signUPAgreement) {
                         SignUpAgreementView(store: store)
                     }
-                case .signUpName:
-                    if let store = store.scope(state: \.signUpName, action: \.signUpName) {
-                        SignUpNameView(store: store)
+                case .signUpPaging:
+                    if let store = store.scope(state: \.signUpPaging, action: \.signUpPaging) {
+                        SignUpPagingView(store: store)
                     }
                 }
             }
