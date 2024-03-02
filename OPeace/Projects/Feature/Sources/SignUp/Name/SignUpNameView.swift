@@ -19,6 +19,23 @@ public struct SignUpNameView:View {
     @Bindable var store: StoreOf<SignUpNameFeature>
     
     public var body: some View {
-        Text("이름입력화면")
+        VStack {
+            Spacer()
+                .frame(height: 50)
+            VStack(spacing: 10) {
+                Text("닉네임 입력")
+                    .font(DesignSystemKitFontFamily.Pretendard.bold.swiftUIFont(size: 24))
+                    .foregroundStyle(.white)
+                Text("2~5자까지 입력할 수 있어요")
+                    .foregroundStyle(DesignSystemKitAsset.ColorAsset.grayScale300.swiftUIColor)
+            }
+            Spacer()
+                .frame(height: 50)
+            TextField("닉네임", text: $store.displayName)
+                .font(DesignSystemKitFontFamily.Pretendard.bold.swiftUIFont(size: 48))
+                .foregroundStyle(.white)
+                .multilineTextAlignment(.center)
+            Spacer()
+        }
     }
 }

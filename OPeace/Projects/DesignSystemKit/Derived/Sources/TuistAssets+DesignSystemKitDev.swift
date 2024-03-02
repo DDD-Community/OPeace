@@ -33,7 +33,8 @@ public enum DesignSystemKitDevAsset {
     public static let primaryGreen = DesignSystemKitDevColors(name: "PrimaryGreen")
   }
   public enum ImageAsset {
-  public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "Img.Background.Gradient.Green.Dot")
+  public static let imgArrowLeftGray = DesignSystemKitDevImages(name: "Img.Arrow.Left.Gray")
+    public static let imgBackgroundGradientGreenDot = DesignSystemKitDevImages(name: "Img.Background.Gradient.Green.Dot")
     public static let imgCircleCheckRoundGray = DesignSystemKitDevImages(name: "Img.CircleCheck.Round.Gray")
     public static let imgCircleCheckRoundGreen = DesignSystemKitDevImages(name: "Img.CircleCheck.Round.Green")
     public static let imgOpeaceGreenLogo = DesignSystemKitDevImages(name: "Img.Opeace.Green.Logo")

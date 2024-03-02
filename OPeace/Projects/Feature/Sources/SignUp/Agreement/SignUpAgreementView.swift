@@ -67,6 +67,12 @@ public struct SignUpAgreementView:View {
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
         .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+        .navigationBarBackButtonHidden()
+        .overlay(alignment: .topLeading) {
+            NavbarBackButton {
+                store.send(.backButtonTapped)
+            }
+        }
     }
 }
 
@@ -100,7 +106,8 @@ public struct CheckTitleView: View {
                 .font(DesignSystemKitFontFamily.Pretendard.semiBold.swiftUIFont(size: 16))
                 .foregroundStyle(.white)
             Spacer()
-        }.onTapGesture {
+        }
+        .onTapGesture {
             action()
         }
     }

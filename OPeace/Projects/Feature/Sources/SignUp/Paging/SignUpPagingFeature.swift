@@ -24,11 +24,18 @@ public struct SignUpPagingFeature {
     public enum Action: Equatable {
         case signUpName(SignUpNameFeature.Action)
         case signUpBirthDay(SignUpBirthDayFeature.Action)
+        case backButtonTapped
     }
+    
+    @Dependency(\.dismiss) var dismiss
     
     public var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
+            case .backButtonTapped:
+                return .run { _ in
+                    return await self.dismiss()
+                }
             default:
                 return .none
             }

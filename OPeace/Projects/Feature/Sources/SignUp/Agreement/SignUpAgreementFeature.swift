@@ -30,8 +30,10 @@ public struct SignUpAgreementFeature {
         case serviceAgreeCheckTapped
         case privacyAgreeCheckTapped
         case nextButtonTapped
-
+        case backButtonTapped
     }
+    
+    @Dependency(\.dismiss) var dismiss
     
     public var body: some ReducerOf<Self> {
         Reduce { state, action in
@@ -64,6 +66,8 @@ public struct SignUpAgreementFeature {
                 return .none
             case .nextButtonTapped:
                 return .none
+            case .backButtonTapped:
+                return .run { _ in await self.dismiss()}
             default:
                 return .none
             }

@@ -39,5 +39,12 @@ public struct SignUpPagingView: View {
             UIScrollView.appearance().bounces = true
         }
         .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+        .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+        .navigationBarBackButtonHidden()
+        .overlay(alignment: .topLeading) {
+            NavbarBackButton {
+                store.send(.backButtonTapped)
+            }
+        }
     }
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,7 @@
 		7F3F26FE098E2E6D6E1FC2C7 /* TuistAssets+DesignSystemKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFBA0ED558494761DCFAFA /* TuistAssets+DesignSystemKit.swift */; };
 		820A6FBD9324D9FED78DCF1B /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 366845E7A135C84549670672 /* Pretendard-Thin.otf */; };
 		82DA8AFAC8C27D578834384B /* ColorAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8214B3BA6B22195E5908B1 /* ColorAsset.xcassets */; };
+		840C69C62B92B56F000A77B4 /* NavbarBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C69C52B92B56F000A77B4 /* NavbarBackButton.swift */; };
 		90B9560DFB6F22FAA3F7D6D6 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5EE502A78FD1DC55B88670 /* Pretendard-SemiBold.otf */; };
 		9473D30FCB7D25F2AC6D735F /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF1CAE70553A7BCE3231937F /* Pretendard-Bold.otf */; };
 		96A417466A30AB1038CCD487 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0B4E7DF2D91F333F905A46 /* Pretendard-Black.otf */; };
@@ -153,6 +154,7 @@
 		6B5EE502A78FD1DC55B88670 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		6D64778A38536D86CFA6CD85 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		803FDCB68C62247F102E4CC1 /* DesignSystemKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemKit-Info.plist"; sourceTree = "<group>"; };
+		840C69C52B92B56F000A77B4 /* NavbarBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarBackButton.swift; sourceTree = "<group>"; };
 		8F0B4E7DF2D91F333F905A46 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
 		96ED55DA574A8A71C6A483CC /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 		A9C11876863A99D1C88BF494 /* DesignSystemKit_DesignSystemKit-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemKit_DesignSystemKit-Dev-Info.plist"; sourceTree = "<group>"; };
@@ -273,6 +275,14 @@
 			path = DesignSystemKitTests;
 			sourceTree = "<group>";
 		};
+		840C69C42B92B565000A77B4 /* NavBarBackButton */ = {
+			isa = PBXGroup;
+			children = (
+				840C69C52B92B56F000A77B4 /* NavbarBackButton.swift */,
+			);
+			path = NavBarBackButton;
+			sourceTree = "<group>";
+		};
 		8DC07BE2E61A776C9157ED2C /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +339,7 @@
 		EFAAA86192FE11BE02135267 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				840C69C42B92B565000A77B4 /* NavBarBackButton */,
 				B34EF95994DDE478D6C8B6E1 /* OPeaceCustomButton */,
 			);
 			path = Sources;
@@ -452,8 +463,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				ORGANIZATIONNAME = Yeom;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 154050159D5867BD8C8C86B1 /* Build configuration list for PBXProject "DesignSystemKit" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -567,6 +576,7 @@
 				7F3F26FE098E2E6D6E1FC2C7 /* TuistAssets+DesignSystemKit.swift in Sources */,
 				0210B458E7ED80AE015E6167 /* TuistBundle+DesignSystemKit.swift in Sources */,
 				6F7957B5B7395FF32BE3D800 /* TuistFonts+DesignSystemKit.swift in Sources */,
+				840C69C62B92B56F000A77B4 /* NavbarBackButton.swift in Sources */,
 				0794F9F208E05907CC0BE223 /* OPeaceCustomButtonConfig.swift in Sources */,
 				3A32D7BD737ACD522EB37EA5 /* OnBoardingButtonConfig.swift in Sources */,
 				D0CD9AD85BC71076487DDD65 /* OPeaceCustomButton.swift in Sources */,

@@ -46,6 +46,7 @@ struct AppMainView: View {
                 }
                 .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+            //store.state에 접근해서 각 뷰에 store에 Feature에 할당되어있는 store를 넣어주면 된다.
             } destination: { store in
                 switch store.state {
                 case .signUpAgreement:

@@ -13,17 +13,23 @@ import ComposableArchitecture
 public struct SignUpNameFeature {
     public init() { }
     
+    @ObservableState
     public struct State: Equatable {
         public init() {}
+        var displayName = ""
     }
     
-    public enum Action: Equatable {
-        
+    public enum Action: BindableAction, Equatable {
+        case binding(BindingAction<State>)
     }
     
     public var body: some ReducerOf<Self> {
+        BindingReducer()
+        
         Reduce { state, action in
             switch action {
+            case .binding(\.displayName):
+                return .none
             default:
                 return .none
             }
