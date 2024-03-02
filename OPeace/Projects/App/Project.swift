@@ -24,5 +24,6 @@ let project = Project.makeAppModule(
     ],
     sources: ["Sources/**", "Resources/FontAsset/**"],
     resources: ["Resources/**"],
-    infoPlist: .file(path: "Support/Info.plist")
+    infoPlist: .file(path: "Support/Info.plist"),
+    entitlements: "OPeace.entitlements"
 )

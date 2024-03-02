@@ -69,6 +69,9 @@
          location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-identified-collections/swift-identified-collections.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-perception/swift-perception.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-syntax/swift-syntax.xcodeproj">
       </FileRef>
       <FileRef

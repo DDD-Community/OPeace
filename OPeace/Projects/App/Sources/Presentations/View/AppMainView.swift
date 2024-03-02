@@ -15,7 +15,7 @@ import DesignSystemKit
 
 struct AppMainView: View {
     
-    let store: StoreOf<AppMainFeature>
+    @Bindable var store: StoreOf<AppMainFeature>
     
     @State private var isActiveSplashView = true
     
@@ -29,34 +29,35 @@ struct AppMainView: View {
                     })
                 }
         } else {
-            NavigationStackStore(
-                self.store.scope(state: \.path, action: { .path($0) })
-            ) {
-                WithViewStore(self.store, observe: { $0 }) { viewStore in
-                    VStack {
-                        Spacer()
-                        Image(uiImage: DesignSystemKitAsset.ImageAsset.imgOpeaceGreenLogo.image)
-                            .frame(width: 100, height: 100)
-                        Text("회원가입하기")
-                            .padding(.top, 50)
-                            .font(.system(.largeTitle))
-                            .foregroundStyle(.white)
-                            .onTapGesture {
-                                viewStore.send(.signUpButtonTapped)
-                            }
-                        Spacer()
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                    .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+            NavigationStack(path: self.$store.scope(state: \.path, action: \.path)) {
+                
+                VStack {
+                    Spacer()
+                    Image(uiImage: DesignSystemKitAsset.ImageAsset.imgOpeaceGreenLogo.image)
+                        .frame(width: 100, height: 100)
+                    Text("회원가입하기")
+                        .padding(.top, 50)
+                        .font(.system(.largeTitle))
+                        .foregroundStyle(.white)
+                        .onTapGesture {
+                            store.send(.signUpButtonTapped)
+                        }
+                      Spacer()
                 }
-            } destination: { (state: AppMainFeature.Path.State) in
-                switch state {
+                .frame(maxWidth: .infinity, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                .background(DesignSystemKitAsset.ColorAsset.primaryBlack37.swiftUIColor)
+            //store.state에 접근해서 각 뷰에 store에 Feature에 할당되어있는 store를 넣어주면 된다.
+            } destination: { store in
+                switch store.state {
                 case .signUpAgreement:
-                    CaseLet(
-                        /AppMainFeature.Path.State.signUpAgreement,
-                         action: AppMainFeature.Path.Action.signUPAgreement,
-                         then: SignUpAgreementView.init(store:)
-                    )
+                    //부모로부터 socre를 통해서 reducer를 자식 뷰에 전달한다.
+                    if let store = store.scope(state: \.signUpAgreement, action: \.signUPAgreement) {
+                        SignUpAgreementView(store: store)
+                    }
+                case .signUpPaging:
+                    if let store = store.scope(state: \.signUpPaging, action: \.signUpPaging) {
+                        SignUpPagingView(store: store)
+                    }
                 }
             }
         }

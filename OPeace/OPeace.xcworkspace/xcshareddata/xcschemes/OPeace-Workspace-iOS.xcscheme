@@ -462,6 +462,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D87A673CA6042584AEA9877A"
+               BuildableName = "Perception.framework"
+               BlueprintName = "Perception"
+               ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-perception/swift-perception.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "D6DA10AB20EECEA15A6B4A75"
                BuildableName = "ShareKit.framework"
                BlueprintName = "ShareKit"

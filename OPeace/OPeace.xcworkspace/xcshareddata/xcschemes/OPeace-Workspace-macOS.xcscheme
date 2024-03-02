@@ -56,6 +56,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FEF8F0119F315E02A6904938"
+               BuildableName = "PerceptionMacros"
+               BlueprintName = "PerceptionMacros"
+               ReferencedContainer = "container:Tuist/Dependencies/SwiftPackageManager/.build/checkouts/swift-perception/swift-perception.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "114FBD9E0C8A1E594FBAE26F"
                BuildableName = "SwiftBasicFormat.framework"
                BlueprintName = "SwiftBasicFormat"
